@@ -1,0 +1,3600 @@
+
+///////////////////////
+////// SUBTITLES //////
+///////////////////////
+
+/*
+	"PATH\\TO\\SOUND": [
+		{
+			"text": "This text appears as soon as the sound plays."
+		},
+		{
+			"text": "This text appears 2.3 seconds after the sound first plays.",
+			"delay": 2.3
+		},
+		{
+			"text": "This text appears after 3.3 seconds. It is orange.",
+			"delay": 3.3,
+			"color": "classd"
+		},
+		{
+			"text": "This line should stay on screen for 10+5 seconds.",
+			"delay": 4.0,
+			"length": 10.0
+		}
+	],
+*/
+
+{
+	"colors": {
+		// Put RGB-Colors that subtitles used here
+		"announcement": [130, 130, 130],
+		"chaos": [0, 130, 0],
+		"crew": [135, 160, 130],
+		"classd": [225, 120, 0],
+		"guard": [180, 180, 150],
+		"janitor": [120, 140, 170],
+		"mtf": [100, 60, 45],
+		"nazi": [130, 0, 20],
+		"035": [150, 0, 0],
+		"049": [50, 70, 70],
+		"066": [180, 35, 60],
+		"106": [10, 5, 5],
+		"682": [180, 160, 135],
+		"860-2": [110, 55, 80],
+		"1499-1": [40, 40, 40]
+	},
+	/* INTRO */
+	/* AGENT ULGRIN */
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\BeforeDoorOpen.ogg": [
+		{
+			"text": "Kontrol, bu Ajan Ulgrin. Hücre 3-11'i açmak için bir isteğe ihtiyacım var.",
+			"delay": 3.7,
+			"color": "guard",
+			"length": 4.0
+		},
+		{
+			"text": "Tamamdır.",
+			"delay": 8.9,
+			"length": 0.91
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCell.ogg": [
+		{
+			"text": "Hey, senin için biraz işleri var. Bana bir iyilik yap ve hücrenden çık.",
+			"delay": 1.37,
+			"color": "guard",
+			"length": 4.14
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCellRefuse1.ogg": [
+		{
+			"text": "Nesin sen, aptal falan mı? Hücreden çık dedim. Hücreden dışarı adım atmazsan, götünü tekmeleyeceğim.",
+			"color": "guard",
+			"length": 6.05
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCellRefuse2.ogg": [
+		{
+			"text": "Bak dostum, bütün günüm yok. Bu konuda kibar olmaya çalışıyorum. Hücreden dışarı adım atmazsan, götüne tekmeyi basacağım.",
+			"color": "guard",
+			"length": 5.6
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas1.ogg": [
+		{
+			"text": "*Gülüş* Şimdiye kadar sahip olduğumuz en aptal denek olmalısın! Pekala, kapıları kapatın ve gaz vanalarını açın.",
+			"color": "guard",
+			"length": 7.05
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas2.ogg": [
+		{
+			"text": "Hmm. Aslında kavga etmediğin için biraz hayal kırıklığına uğradım. Yüzüne yumruk atmayı dört gözle bekliyordum.",
+			"color": "guard",
+			"length": 5.71
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\Escort1.ogg": [
+		{
+			"text": "Sadece beni takip et. Heh, ve bu arada, itaatsiz denekleri öldürme yetkimiz var. Bu yüzden aptalca bir şey deneme.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\Escort2.ogg": [
+		{
+			"text": "Sadece beni takip et. Heh, ve bu arada, itaatsiz denekleri yok etme yetkimiz var. Bu yüzden aptalca bir şey yapmamanı tavsiye ederim.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRun.ogg": [
+		{
+			"text": "Hey, aptal! Yanlış yöne gidiyorsun! Hemen şimdi buraya gel.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRefuse1.ogg": [
+		{
+			"text": "Çabuk ol! Seni bekliyorlar!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRefuse2.ogg": [
+		{
+			"text": "Bak dostum, zaten işimden nefret ediyorum. Neden benim için daha da zorlaştırıyorsun?",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortPissedOff1.ogg": [
+		{
+			"text": "Bu bok havasında değilim. İşbirliği yapmaya başlamazsan beynine bir kurşun sıkmakta sorun yaşamıyorum.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortPissedOff2.ogg": [
+		{
+			"text": "Bu bok havasında değilim! İşbirliği yapmaya başlamazsan kafana kurşun sıkmakta sorun yaşamıyorum.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortKill1.ogg": [
+		{
+			"text": "Tamam, biliyor musun. Öyle ol. O zaman başka birini bulacağız.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortKill2.ogg": [
+		{
+			"text": "Tamam, iyi. Öyle ol. O zaman başka birini bulacağız.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortTerminated.ogg": [
+		{
+			"text": "Cessetten kurtulacağım. Gidip bana bir tane daha getirebilirsin...",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone1.ogg": [
+		{
+			"text": "Sanırım geldik artık. Sadece oraya gir ve tüm talimatları takip et ve... Muhtemelen iyi olacaksın.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone2.ogg": [
+		{
+			"text": "Artık geldik sanırım. Seni yumruklayamadığım için hala hayal kırıklığına uğradım ama... neyse.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone3.ogg": [
+		{
+			"text": "Artık geldik. Yüzüne yumruk atamadığım için hala hayal kırıklığına uğradım ama... neyse.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone4.ogg": [
+		{
+			"text": "Sadece oraya gir ve tüm talimatları izle ve... Muhtemelen iyi olacaksın. Ya da belki olmayacaksın. Her iki durumda da, gerçekten umurumda değil.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone5.ogg": [
+		{
+			"text": "Her neyse, daha fazla zaman kaybetme. Odada seni bekliyorlar.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\OhAndByTheWay.ogg": [
+		{
+			"text": "Oh, ve bu arada.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\WhatThe1b.ogg": [
+		{
+			"text": "Ah siktir!",
+			"delay": 1.15,
+			"color": "guard"
+		},
+		{
+			"text": "Tamamdır, anladım.",
+			"delay": 7.78,
+			"color": "guard"
+		}
+	],
+	/* ESCAPE GUARD */
+	"SFX\\Room\\Intro\\Guard\\PlayerEscape.ogg": [
+		{
+			"text": "Bu da ne lan? Hey! Dur! Kaçıyor lan o!",
+			"color": "guard"
+		}
+	],
+	/* GUARD CONVERSATION */
+	"SFX\\Room\\Intro\\Guard\\Conversation1a.ogg": [
+		{
+			"text": "Peki... nasıl gidiyor?",
+			"color": "guard"
+		},
+		{
+			"text": "Evet, kiminle konuştuğumu sanıyorsun? Yumruk-atabildiğim yüzü olan bu adam mı? Tabii ki seninle konuşuyorum.",
+			"delay": 5.3,
+			"color": "guard"
+		},
+		{
+			"text": "Zaten. Burada çalışmaya başladığın ilk gün.",
+			"delay": 15.4,
+			"color": "guard"
+		},
+		{
+			"text": "Cidden mi? Vay, çok ilginçmiş..",
+			"delay": 23.65,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation1b.ogg": [
+		{
+			"text": "Hmm?... sen- sen bana mı konuşuyorsun?",
+			"delay": 3.2,
+			"color": "guard"
+		},
+		{
+			"text": "Boşver! Sadece biraz şaşırdım. Sanırım benimle ilk kez konuşuyorsun.",
+			"delay": 10.33,
+			"color": "guard"
+		},
+		{
+			"text": "Şey... Aslında yaklaşık beş aydır birlikte çalışıyoruz.",
+			"delay": 18.95,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation2a.ogg": [
+		{
+			"text": "Hımm... son zamanlarda iyi filmler izledin mi?",
+			"color": "guard"
+		},
+		{
+			"text": "Evet? Ne tür kitaplar?",
+			"delay": 7.19,
+			"color": "guard"
+		},
+		{
+			"text": "Heh, benimle dalga mı geçiyorsun?",
+			"delay": 12.5,
+			"color": "guard"
+		},
+		{
+			"text": "Bütün işin korku ve bilim kurgu etrafında dönüyor! Bunun dışında, bilirsin, aslında kurgu değil.",
+			"delay": 15.93,
+			"color": "guard"
+		},
+		{
+			"text": "Evet bak, alınma, ama neyden bahsettiğine olan ilgimi çoktan kaybettim.",
+			"delay": 24.73,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation2b.ogg": [
+		{
+			"text": "Ah, ben- Gerçekten film izlemiyorum. Çoğunlukla sadece kitap okurum..",
+			"delay": 3.27,
+			"color": "guard"
+		},
+		{
+			"text": "Ah, korku. Bilim kurgu. Bunun gibi bir şeyler.",
+			"delay": 9.0,
+			"color": "guard"
+		},
+		{
+			"text": "Efendim?",
+			"delay": 14.8,
+			"color": "guard"
+		},
+		{
+			"text": "Aslında, benim hakkımda bir kitap yazmayı planlı-",
+			"delay": 22.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation3a.ogg": [
+		{
+			"text": "Dostum, açım. Hey, bugün kafeteryada pizza günü değil mi?",
+			"color": "guard"
+		},
+		{
+			"text": "Ah, kahretsin. Günüm mahvoldu. Hala buraya gelmemin tek sebebi pizza. O pizzanın ne olduğunu bilmiyorum ama çok lezzetli.",
+			"delay": 7.65,
+			"color": "guard"
+		},
+		{
+			"text": "Öte yandan ton balıklı güveç iğrenç bir iğrençliktir ve diğer ucubelerle birlikte buraya kilitlenmesi gerekiyor.",
+			"delay": 16.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation3b.ogg": [
+		{
+			"text": "A- aslında sanırım ton balıklı güveç.",
+			"delay": 4.6,
+			"color": "guard"
+		},
+		{
+			"text": "Eehh... Tamam?",
+			"delay": 22.93,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation4a.ogg": [
+		{
+			"text": "Kız arkadaşın yok, değil mi?",
+			"color": "guard"
+		},
+		{
+			"text": "Kesinlikle zihin okuyucu değilim. Aksi halde burada kilitli kalacaktım. Yani evet, bunun oldukça açık olduğunu söyleyebilirim.",
+			"delay": 3.3,
+			"color": "guard"
+		},
+		{
+			"text": "Ona bir kafede falan çalıştığını söyle.",
+			"delay": 13.51,
+			"color": "guard"
+		},
+		{
+			"text": "Ah, bilmiyorum! Sadece... ona ketçap olduğunu söyle..",
+			"delay": 23.55,
+			"color": "guard"
+		},
+		{
+			"text": "Üf, Unut gitsin.",
+			"delay": 30.45,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation4b.ogg": [
+		{
+			"text": "Bu kadar açık mı?",
+			"delay": 1.94,
+			"color": "guard"
+		},
+		{
+			"text": "Peki, bu işim varken nasıl bir kız arkadaş edineceğim ki? Yani ona bunu anlatamam.",
+			"delay": 9.14,
+			"color": "guard"
+		},
+		{
+			"text": "Peki ya iş yerinde yanlışlıkla ellerimi yıkamayı unutursam ve eve geldiğimde ellerimin her yeri kan olursa? O zaman ona ne diyecektim?",
+			"delay": 16.2,
+			"color": "guard"
+		},
+		{
+			"text": "Ketçap? Bir kafede çalışsaydım neden ellerimde ketçap olsun ki?",
+			"delay": 26.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation5a.ogg": [
+		{
+			"text": "Şey.. Son zamanlarda hiç iyi film izledin mi?",
+			"color": "guard"
+		},
+		{
+			"text": "Hımm, tamam. Peki ya video oyunları? Bu bana birinin burayı temel alan bir video oyunu yapması gerektiğini hatırlattı..",
+			"delay": 5.4,
+			"color": "guard"
+		},
+		{
+			"text": "Eh, bilmiyorum. Bunun harika bir fikir olduğunu düşündüm.",
+			"delay": 13.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation5b.ogg": [
+		{
+			"text": "Şey.. B-ben pek film izlemiyorum..",
+			"delay": 3.2,
+			"color": "guard"
+		},
+		{
+			"text": "Neden biri  böyle birşey yapsın ki?",
+			"delay": 11.5,
+			"color": "guard"
+		},
+		{
+			"text": "Ben de video oyunları oynamıyorum.",
+			"delay": 17.0,
+			"color": "guard"
+		}
+	],
+	/* BALCONY GUARD */
+	"SFX\\Room\\Intro\\Guard\\Balcony\\Alert1.ogg": [
+		{
+			"text": "Hey korkak-kedi, hemen odaya dönsen iyi olur. Sana tekrar sormayacağım.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\Alert2.ogg": [
+		{
+			"text": "Gerçekten ben fark etmeden buradan çıkıp gidebileceğini mi sandın? Şimdi odaya geri dönün.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\OhShit.ogg": [
+		{
+			"text": "Ah, siktir..siktir! siktir!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\WTF1.ogg": [
+		{
+			"text": "Siktiğim şeyi neler oluyor?",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\WTF2.ogg": [
+		{
+			"text": "Şimdi noluyor!?",
+			"color": "guard"
+		}
+	],
+	/* FRANKLIN */
+	"SFX\\Room\\Intro\\WhatThe1a.ogg": [
+		{
+			"text": "Ajan, arkanızda!"
+		},
+		{
+			"text": "Gözlerini oraya tut..",
+			"delay": 1.65
+		},
+		{
+			"text": "Tamam, göz kırpacağım. Sadece izlemeye devam edin.",
+			"delay": 4.82
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\EnterChamber.ogg": [
+		{
+			"text": "Tüm D-SINIFI, personelin dikkatine, lütfen muhafaza odasına girin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse1.ogg": [
+		{
+			"text": "Denek D-9341, muhafaza odasına girin yoksa vurulacaksınız!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse2.ogg": [
+		{
+			"text": "Bu son uyarınız, kuralı uymanız için beş saniyeniz var!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse3.ogg": [
+		{
+			"text": "Konu D-9341'in sonlandırılmasına karar verildi. Ateş, serbest!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Approach173.ogg": [
+		{
+			"text": "Lütfen deneme için SCP-173'e yaklaşın.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Problem.ogg": [
+		{
+			"text": "Uhm, kapı kontrol sisteminde bir sorun var gibi görünüyor. Kapılar, onları kapatma girişimlerimizin hiçbirine yanıt vermiyor. Bu yüzden lütfen SCP-173 ile doğrudan göz teması kurmaya devam edin.",
+			"color": "announcement",
+			"length": 6.57
+		}
+	],
+	/* CLASS-D */
+	"SFX\\Room\\Intro\\ClassD\\DontLikeThis.ogg": [
+		{
+			"text": "Ben bunu hiç beğenmiyorum, cidden beğenmiyorum.",
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\ClassD\\Breen.ogg": [
+		{
+			"text": "Bekle, ne olu-",
+			"color": "classd"
+		}
+	],
+	/* SCIENTIST */
+	"SFX\\Room\\Intro\\Scientist\\Conversation.ogg": [
+		{
+			"text": "Bir sebepten dolayı 079'un odasının önünden geçti ve kapılar artık çalışmıyor."
+		},
+		{
+			"text": "En azından son geçtiğimde çalışmıyorlardı.",
+			"delay": 5.0
+		},
+		{
+			"text": "Derici?",
+			"delay": 12.2
+		},
+		{
+			"text": "Hmm, onu tanıdığımı hatırlamıyorum.",
+			"delay": 15.4
+		},
+		{
+			"text": "Hiç bu sektörde görevli miydi?",
+			"delay": 17.65
+		},
+		{
+			"text": "Evet, yolda bir güvenlik ajanı ve asistan bir araştırmacıyı yanına aldı.",
+			"delay": 25.3
+		},
+		{
+			"text": "Çocuk evrakları amirine götürüyordu, bu berbat bir bok.",
+			"delay": 29.5
+		},
+		{
+			"text": "Dr. L.'yi oldukça sarstı...",
+			"delay": 36.2
+		},
+		{
+			"text": "Ofisinden hiç ayrılmadı, bazı şeyler duyduğunu söylüyor.",
+			"delay": 38.2
+		}
+	],
+	/* IA SYSTEM */
+	"SFX\\Room\\Intro\\IA\\1\\Attention0.ogg": [
+		{
+			"text": "Dikkat.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\1\\Attention1.ogg": [
+		{
+			"text": "Lütfen dikkat edin,",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew0.ogg": [
+		{
+			"text": "Bakım Ekibi Echo",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew1.ogg": [
+		{
+			"text": "Elektrikçi Ekibi Lima",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew2.ogg": [
+		{
+			"text": "Denetim Ekibi Sierra",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew3.ogg": [
+		{
+			"text": "Teknisyen Takımı A3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew4.ogg": [
+		{
+			"text": "Temizlik Ekibi 4E",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew5.ogg": [
+		{
+			"text": "El Sorumlusu Boyayıcı",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist0.ogg": [
+		{
+			"text": "Baş Araştırmacı Fırını",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist1.ogg": [
+		{
+			"text": "Asistan Araştırmacı Conway",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist2.ogg": [
+		{
+			"text": "Kıdemsiz Araştırmacı Rosing",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist3.ogg": [
+		{
+			"text": "Kıdemli Araştırmacı Palmer",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist4.ogg": [
+		{
+			"text": "Doktor Burk",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist5.ogg": [
+		{
+			"text": "Doktor Caldera",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist6.ogg": [
+		{
+			"text": "Doktor Harp",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist7.ogg": [
+		{
+			"text": "Doktor Gears",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist8.ogg": [
+		{
+			"text": "Doktor Clef",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist9.ogg": [
+		{
+			"text": "Doktor Kondraki",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist10.ogg": [
+		{
+			"text": "Doktor Valdeson",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist11.ogg": [
+		{
+			"text": "Asistan Araştırmacı Cooley",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist12.ogg": [
+		{
+			"text": "Baş Elektrikçi Wagner",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist13.ogg": [
+		{
+			"text": "Güvenlik Görevlisi Ingreso",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist14.ogg": [
+		{
+			"text": "İletişim Uzmanı Fırını",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist15.ogg": [
+		{
+			"text": "Taşıma Görevlisi Conway",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist16.ogg": [
+		{
+			"text": "Güvenlik Direktörü Paxton",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist17.ogg": [
+		{
+			"text": "Araştırma Direktörü Reed",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security0.ogg": [
+		{
+			"text": "Güvenlik Ekibi 12-B",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security1.ogg": [
+		{
+			"text": "Güvenlik Ekibi 7-A",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security2.ogg": [
+		{
+			"text": "Ajan Ulgrin",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security3.ogg": [
+		{
+			"text": "Güvenlik Ekibi 3-F",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security4.ogg": [
+		{
+			"text": "Güvenlik Ekibi 11-C",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security5.ogg": [
+		{
+			"text": "Çavuş Valdeson",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\CallOnLine.ogg": [
+		{
+			"text": "Çevrim-içi arayın.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\Report0.ogg": [
+		{
+			"text": "Şuraya bildirin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\Report1.ogg": [
+		{
+			"text": "Lütfen şuraya bildirin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew0.ogg": [
+		{
+			"text": "Dekontaminasyon Kapısı 14.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew1.ogg": [
+		{
+			"text": "Bakım Tüneli Kontrol Noktası D.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew2.ogg": [
+		{
+			"text": "Servis Tüneli A.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew3.ogg": [
+		{
+			"text": "Depol Kompleksi F.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew4.ogg": [
+		{
+			"text": "Telsa Kapısı G-6.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew5.ogg": [
+		{
+			"text": "Lavabo C-30.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew6.ogg": [
+		{
+			"text": "Dekontaminasyon Kontrol Noktası H-13.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist0.ogg": [
+		{
+			"text": "Ofis Kompleksi E. ",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist1.ogg": [
+		{
+			"text": "Ofis Kompleksi Kat 3.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist2.ogg": [
+		{
+			"text": "Personel Yatakhaneleri Kat 3.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist3.ogg": [
+		{
+			"text": "Test Laboratuvarı 5-B.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist4.ogg": [
+		{
+			"text": "Ofis Kompleksi B-12.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist5.ogg": [
+		{
+			"text": "C Kapısı Yönetim Kompleksi.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist6.ogg": [
+		{
+			"text": "Depolama Tesisleri G-5.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist7.ogg": [
+		{
+			"text": "Baş Ofisi A.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security0.ogg": [
+		{
+			"text": "Hücre Bloğu Deltası.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security1.ogg": [
+		{
+			"text": "Atış Poligonu Foxtrot.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security2.ogg": [
+		{
+			"text": "Kapı A.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security3.ogg": [
+		{
+			"text": "Ağır Muhafaza Kontrol Noktası Alfa.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security4.ogg": [
+		{
+			"text": "Giriş Kontrol Noktası Bravo.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security5.ogg": [
+		{
+			"text": "Işık Çevrelemesi Kontrol Noktası Kilo B.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew0.ogg": [
+		{
+			"text": "Bakım için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew1.ogg": [
+		{
+			"text": "Mühendislik hizmeti için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew2.ogg": [
+		{
+			"text": "Temizlik hizmeti için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew3.ogg": [
+		{
+			"text": "Temizlik için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew4.ogg": [
+		{
+			"text": "Planlı inceleme için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew5.ogg": [
+		{
+			"text": "For scheduled safety inspection.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew6.ogg": [
+		{
+			"text": "Derhal dekontaminasyon temizliği için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Scientist0.ogg": [
+		{
+			"text": "Planlanmış güvenlik denetimi için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security0.ogg": [
+		{
+			"text": "Bilgilendirmek için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security1.ogg": [
+		{
+			"text": "Acil servis için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security2.ogg": [
+		{
+			"text": "Personel kontrolü için.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\1.ogg": [
+		{
+			"text": "1",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\2.ogg": [
+		{
+			"text": "2",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\3.ogg": [
+		{
+			"text": "3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\4.ogg": [
+		{
+			"text": "4",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\5.ogg": [
+		{
+			"text": "5",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\6.ogg": [
+		{
+			"text": "6",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\7.ogg": [
+		{
+			"text": "7",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\8.ogg": [
+		{
+			"text": "8",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\9.ogg": [
+		{
+			"text": "9",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement1.ogg": [
+		{
+			"text": "Unutmayın bugün pizza günü. O yüzden kendinize sıcak bir dilim almak için kafeteryaya gidin.",
+			"delay": 1.9,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement2.ogg": [
+		{
+			"text": "Unutmayın, güvenlik, güvenli bir çalışma ortamına giden ilk adımdır. Güvende kalın, uyanık kalın.",
+			"delay": 1.85,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement3.ogg": [
+		{
+			"text": "Tüm personele bir hatırlatma; motivasyon seminerleri perşembe günleri 17-18 saatleri arasında fakülte oditoryumunda düzenlenmektedir. Aşağıya gelin ve motive olun!",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement4.ogg": [
+		{
+			"text": "Tüm şüpheli etkinlikleri amirlerinize bildirmeyi unutmayın. Sen bile incelemeden muaf değilsin. Paranoyak kalın. Dikkatli olun.",
+			"delay": 1.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement5.ogg": [
+		{
+			"text": "Formda değil misiniz? Fakültenin spor salonuna uğrayın ve pazar günleri topluluk Badminton oyununa katılmaktan çekinmeyin!",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement6.ogg": [
+		{
+			"text": "Yorgun ve fazla çalıştığınızı mı hissediyorsunuz? Kafeteryada her saat taze demlenmiş kahve servis edilmektedir.",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement7.ogg": [
+		{
+			"text": "Aşağı gelin ve bu Cumartesi yıllık film gecemize katılın! Bu yılın filmi '51. Bölge: Panik ve Terör: İki Metrenin Altında'. ",
+			"delay": 1.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted1.ogg": [
+		{
+			"text": "Dikkat. Güvenlik Şefi Franklin, lütfen derhal muhafaza odası 173'e rapor verin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted2.ogg": [
+		{
+			"text": "Doktor L, lütfen Ağır Muhafaza kontrol noktası C'ye gidin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted3.ogg": [
+		{
+			"text": "Dikkat. Doktor Maynard, derhal idarenin ofisine gidin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted4.ogg": [
+		{
+			"text": "Bakım Ekibi Alpha, güvenlik denetimi için Işık Muhafaza asansörü 6A'ya rapor verin.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted5.ogg": [
+		{
+			"text": "Bakım Ekibi Alpha, güvenlik denetimi için Işık Çevrelemesi asansörü 6A'ya rapor veriniz.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted6.ogg": [
+		{
+			"text": "Dikkat. Tüm personel, lütfen bur-",
+			"delay": 2.2,
+			"color": "announcement"
+		},
+		{
+			"text": "*TUTARSIZ SESLER*",
+			"delay": 5.6,
+			"color": "announcement"
+		},
+		{
+			"text": "Derhal.",
+			"delay": 7.65,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Alarm\\Alarm2_1.ogg": [
+		{
+			"text": "Bu sitede birden fazla Keter ve Euclid düzeyinde çevreleme ihlali yaşanıyor. Tam site kilitleme başlatıldı.",
+			"delay": 0.6,
+			"color": "announcement"
+		}
+	],
+	/* CHARACTERS */
+	"SFX\\Room\\Storeroom\\Escape1.ogg": [
+		{
+			"text": "Sanırım en kısa çıkış yolu Güneydoğu kanadından geçiyor. Beni takip et.",
+			"color": "janitor"
+		}
+	],
+	"SFX\\Room\\Storeroom\\Escape2.ogg": [
+		{
+			"text": "Duydunmu onu?"
+		},
+		{
+			"text": "Umarın bişey deği-",
+			"delay": 1.9
+		}
+	],
+	/* 096 GUARD */
+	"SFX\\Character\\Guard\\096ServerRoom1.ogg": [
+		{
+			"text": "Merhaba?",
+			"delay": 1.4,
+			"color": "guard"
+		},
+		{
+			"text": "Aman Allah'ım...",
+			"delay": 4.7,
+			"color": "guard"
+		},
+		{
+			"text": "Nasıl ordan kaçtı?",
+			"delay": 6.5,
+			"color": "guard"
+		},
+		{
+			"text": "Ah, siktir..!",
+			"delay": 8.75,
+			"color": "guard"
+		},
+		{
+			"text": "HAYIR... HAYIR!",
+			"delay": 10.15,
+			"color": "guard"
+		},
+		{
+			"text": "Onu gördüm!",
+			"delay": 11.5,
+			"color": "guard"
+		},
+		{
+			"text": "Benden uzaklaş!",
+			"delay": 12.8,
+			"color": "guard"
+		},
+		{
+			"text": "Hayır, ben değil... ben değil!",
+			"delay": 16.3,
+			"color": "guard"
+		}
+	],
+	/* 895 GUARD */
+	"SFX\\Room\\895Chamber\\GuardIdle1.ogg": [
+		{
+			"text": "Hiçbirşey çalışmıyor, hiçbirşey.. Hayır, hayır, HAYIR!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardIdle2.ogg": [
+		{
+			"text": "Kafama ne yapıyorsun? Hayır.. lütfen.. lütfen! HAYIR!",
+			"delay": 0.35,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardIdle3.ogg": [
+		{
+			"text": "Stresleme... onlar bana konuşuyor...",
+			"delay": 1.3,
+			"color": "guard"
+		},
+		{
+			"text": "Ben-ben kendi başıma ne yapacağımı bilmiyorum... lütfen, lütfen bana yardım edin!",
+			"delay": 4.65,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream1.ogg": [
+		{
+			"text": "Hayır!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream2.ogg": [
+		{
+			"text": "Hayır!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream3.ogg": [
+		{
+			"text": "Hayır!",
+			"color": "guard"
+		}
+	],
+	/* EMILY ROSS */
+	"SFX\\Character\\Scientist\\EmilyScream.ogg": [
+		{
+			"text": "*SESLİ BAĞIRIŞ*",
+			"delay": 1.4,
+			"length": 0.5
+		}
+	],
+	/* 008 SCIENTIST */
+	"SFX\\SCP\\008\\KillScientist1.ogg": [
+		{
+			"text": "Lütfen! Aman Allah'ım... lütfen..."
+		},
+		{
+			"text": "Lütfen, hayır!",
+			"delay": 7.14
+		}
+	],
+	"SFX\\SCP\\008\\KillScientist2.ogg": [
+		{
+			"text": "*ACI SESLERİ*"
+		}
+	],
+	/* SUICIDE GUARD */
+	"SFX\\Character\\Guard\\SuicideGuard1.ogg": [
+		{
+			"text": "Lütfen...",
+			"delay": 1.1,
+			"color": "guard"
+		},
+		{
+			"text": "Üff...",
+			"delay": 4.2,
+			"color": "guard"
+		},
+		{
+			"text": "Allah'ım...",
+			"delay": 5.75,
+			"color": "guard"
+		},
+		{
+			"text": "Aman Allah'ım...",
+			"delay": 7.25,
+			"color": "guard"
+		},
+		{
+			"text": "Lütfen...",
+			"delay": 9.0,
+			"color": "guard"
+		},
+		{
+			"text": "Lütfen Allah'ım... lütfen Allah'ım... lütfen bana yardım et...",
+			"delay": 13.6,
+			"color": "guard"
+		},
+		{
+			"text": "Aman Allah'ım...",
+			"delay": 18.7,
+			"color": "guard"
+		},
+		{
+			"text": "Lütfen beni affet...",
+			"delay": 19.9,
+			"color": "guard"
+		},
+		{
+			"text": "Lütfen...",
+			"delay": 21.95,
+			"color": "guard"
+		},
+		{
+			"text": "LÜTFEN BANA YARDIM ET...",
+			"delay": 23.1,
+			"color": "guard"
+		}
+	],
+	"SFX\\Character\\Guard\\SuicideGuard2.ogg": [
+		{
+			"text": "O da neydi?",
+			"delay": 0.33,
+			"color": "guard"
+		},
+		{
+			"text": "Hayır...",
+			"delay": 1.5,
+			"color": "guard"
+		}
+	],
+	/* JANITOR */
+	"SFX\\Character\\Janitor\\106Abduct.ogg": [
+		{
+			"text": "O da neydi?",
+			"color": "janitor"
+		},
+		{
+			"text": "Ah, sadece birisi.",
+			"delay": 1.6,
+			"color": "janitor"
+		},
+		{
+			"text": "Ah!",
+			"delay": 3.45,
+			"color": "janitor"
+		}
+	],
+	"SFX\\Character\\Janitor\\Idle.ogg": [
+		{
+			"text": "Merhaba?",
+			"delay": 2.3,
+			"color": "janitor"
+		},
+		{
+			"text": "Hadi ya!",
+			"delay": 7.0,
+			"color": "janitor"
+		},
+		{
+			"text": "Beyler?",
+			"delay": 12.25,
+			"color": "janitor"
+		},
+		{
+			"text": "Merhaba? Burda başka birisi mi var?",
+			"delay": 16.5,
+			"color": "janitor"
+		},
+		{
+			"text": "Merhaba?",
+			"delay": 25.0,
+			"color": "janitor"
+		},
+		{
+			"text": "Hiç kimse?",
+			"delay": 27.1,
+			"color": "janitor"
+		}
+	],
+	/* LURE SUBJECT */
+	"SFX\\Character\\LureSubject\\Idle1.ogg": [
+		{
+			"text": "*BURUN ÇEKME SESLERI*",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle2.ogg": [
+		{
+			"text": "Orda birisi varmı acaba?",
+			"delay": 0.6,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle3.ogg": [
+		{
+			"text": "Merhaba?",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle4.ogg": [
+		{
+			"text": "Lütfen beni bırakın!",
+			"delay": 0.4,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle5.ogg": [
+		{
+			"text": "Bırakın beni!",
+			"delay": 0.9,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle6.ogg": [
+		{
+			"text": "Sadece çıkmak istiyorum, lütfen!",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Sniffling.ogg": [
+		{
+			"text": "*BURUN ÇEKME SESLERİ*",
+			"delay": 0.85,
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\106Chamber\\FemurBreaker.ogg": [
+		{
+			"text": "AHHHHHHHH!",
+			"delay": 3.2,
+			"color": "classd"
+		},
+		{
+			"text": "*NEFES NEFESE KALMA SESLERI*",
+			"delay": 5.6,
+			"color": "classd"
+		},
+		{
+			"text": "AHHHHHHHH!",
+			"delay": 6.8,
+			"color": "classd"
+		},
+		{
+			"text": "*NEFES NEFESE KALMA SESLERI*",
+			"delay": 10.7,
+			"color": "classd"
+		},
+		{
+			"text": "Neden??",
+			"delay": 14.0,
+			"color": "classd"
+		},
+		{
+			"text": "*AĞLAMA SESLERİ*",
+			"delay": 15.5,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\106Bait.ogg": [
+		{
+			"text": "*AĞLAMA SESLERİ*",
+			"delay": 1.7,
+			"color": "classd"
+		},
+		{
+			"text": "*AĞLAMA SESLERİ*",
+			"delay": 8.5,
+			"color": "classd"
+		},
+		{
+			"text": "AHHHHHHHHH!",
+			"delay": 11.45,
+			"color": "classd"
+		}
+	],
+	/* PLAYER */
+	"SFX\\SCP\\012\\Speech1.ogg": [
+		{
+			"text": "Gerçekten biraz.. biraz..",
+			"delay": 1.47,
+			"color": "classd"
+		},
+		{
+			"text": "Yapmalayım... Bitirmem lazım.",
+			"delay": 6.6,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech2.ogg": [
+		{
+			"text": "Gerçekten bunu yapmak istiyorsun...",
+			"delay": 0.19,
+			"color": "classd"
+		},
+		{
+			"text": "Sanırım.. sanırım ben bunu yapmayacağım",
+			"delay": 13.68,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech3.ogg": [
+		{
+			"text": "Ben.. ben bitirmem gerekiyor!",
+			"delay": 5.45,
+			"color": "classd"
+		},
+		{
+			"text": "Muahahahaa!",
+			"delay": 9.15,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech4.ogg": [
+		{
+			"text": "Hiç bir... Hiç bir seçeneğim yok!",
+			"delay": 0.18,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech5.ogg": [
+		{
+			"text": "Lütfen...",
+			"color": "classd"
+		},
+		{
+			"text": "Mhuhahahahah!",
+			"delay": 1.0,
+			"color": "classd"
+		},
+		{
+			"text": "Bu.. bu çok mantıksız.. ",
+			"delay": 7.3,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech6.ogg": [
+		{
+			"text": "Hayır... bu... bu bu...",
+			"delay": 6.5,
+			"color": "classd"
+		},
+		{
+			"text": "Imkansız!!",
+			"delay": 10.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech7.ogg": [
+		{
+			"text": "Muhaahahahaha!",
+			"delay": 3.3,
+			"color": "classd"
+		},
+		{
+			"text": "Bu.. bu hiç bitirilmiyor..",
+			"delay": 8.3,
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\Ew1.ogg": [
+		{
+			"text": "Ergh...",
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\Ew2.ogg": [
+		{
+			"text": "Iyy...",
+			"color": "classd"
+		}
+	],
+	/* NAZI */
+	"SFX\\SCP\\1123\\Officer1.ogg": [
+		{
+			"text": "Friedhelm, gel.",
+			"color": "nazi"
+		}
+	],
+	"SFX\\SCP\\1123\\Officer2.ogg": [
+		{
+			"text": "Hadi artık, gel!",
+			"color": "nazi"
+		}
+	],
+	"SFX\\SCP\\1123\\Officer3.ogg": [
+		{
+			"text": "Bu hisi ben baştan aldım...",
+			"color": "nazi"
+		},
+		{
+			"text": "Diğerleri dedi ki: O birdir, birine benzer.",
+			"delay": 3.19,
+			"color": "nazi"
+		},
+		{
+			"text": "*GÜLÜŞ*",
+			"delay": 7.99,
+			"color": "nazi"
+		},
+		{
+			"text": "Evet, Viktor.",
+			"delay": 9.41,
+			"color": "nazi"
+		},
+		{
+			"text": "Artık şimdi biliyorum.",
+			"delay": 12.18,
+			"color": "nazi"
+		},
+		{
+			"text": "Sen Almanlısın ve bir yahudisin..",
+			"delay": 15.45,
+			"color": "nazi"
+		}
+	],
+	/* MTF ANNOUNCEMENTS */
+	"SFX\\Character\\MTF\\Announc.ogg": [
+		{
+			"text": "Mobil Görev Gücü  birim Epsilon-11, belirlenmiş \u00c2\u00abDokuz-Kuyruklu Tilki\u00c2\u00bb tesise girdi.",
+			"delay": 1.7,
+			"color": "announcement"
+		},
+		{
+			"text": "Geriye kalan tüm hayatta kalanların, birim tesisin güvenliği sağlanana kadar tahliye barınağında veya başka bir güvenli alanda kalmaları tavsiye edilir.",
+			"delay": 8.0,
+			"color": "announcement"
+		},
+		{
+			"text": "Kaçan SCP'ler yeniden ele geçirildiğinde personele dışarı kadar eşlik etmeye başlayacağız.",
+			"delay": 17.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncAfter1.ogg": [
+		{
+			"text": "Hayatta kalan tüm personele bir kez daha tavsiyede bulunmak istiyorum:",
+			"delay": 2.1,
+			"color": "announcement"
+		},
+		{
+			"text": "Çıkışlara ulaşmaya çalışmayın. Ya güvenli bir alan bulun ya da tesis içindeki birçok tahliye sığınağından birine gidin.",
+			"delay": 5.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncAfter2.ogg": [
+		{
+			"text": "Tüm personele bir duyuru: Tesisin üst alanlarının güvenliğini sağlamak için B Kapısı'na giden asansör kilitlendi.",
+			"delay": 3.0,
+			"color": "announcement"
+		},
+		{
+			"text": "Lütfen tesis güvenliği sağlanana kadar tahliye barınaklarında kalmayı unutmayın..",
+			"delay": 11.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraCheck.ogg": [
+		{
+			"text": "Kontrolden Dokuz Kuyruklu Tilki, potansiyel tehditlere karşı kamera görüntülerini kontrol ediyoruz. Yetkisiz davetsiz misafirlerin veya kaçakların navigasyon cihazlarınıza ping attığını görmelisiniz.",
+			"delay": 2.2,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraFound1.ogg": [
+		{
+			"text": "Kontrol Dokuz Kuyruklu Tilki'ye, kamera taraması tamamlandı. Birden fazla başıboş, pozisyonları artık size yayınlanıyor.",
+			"delay": 2.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraFound2.ogg": [
+		{
+			"text": "Kontrol Dokuz Kuyruklu Tilki'ye, kamera taraması tamamlandı. Yalnızca tek bir D Sınıfı kaldı.",
+			"delay": 2.45,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraNoFound.ogg": [
+		{
+			"text": "Kontrol Dokuz Kuyruklu Tilki'ye, kamera taraması tamamlandı. İzinsiz hayatta kalanlara dair bir iz yok.",
+			"delay": 1.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc173Contained.ogg": [
+		{
+			"text": "SCP-173, Foxtrot birinci birim tarafından başarıyla kontrol altına alındı.",
+			"delay": 1.07,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnounc1.ogg": [
+		{
+			"text": "Denek D-9341, sorgulama için en yakın güvenlik kontrol noktasına gidin..",
+			"delay": 2.54,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnounc2.ogg": [
+		{
+			"text": "Denek D-9341, en yakın güvenlik gücüne haber verin. Bunu yapmamak derhal fesihle sonuçlanacaktır.",
+			"delay": 2.23,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnounc3.ogg": [
+		{
+			"text": "Denek D-9341, sorgulama için derhal A Kapısına gidin.",
+			"delay": 2.1,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnouncPossession.ogg": [
+		{
+			"text": "Denek D-9341, çok sayıda yüksek öneme sahip nesnenin alınması için en yakın Mobil Görev Gücü birimine rapor verin.",
+			"delay": 2.4,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnouncFinal.ogg": [
+		{
+			"text": "Deney D-9341, sonlardırma için belirlenmiştir.",
+			"delay": 2.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla1.ogg": [
+		{
+			"text": "Dokuz Kuyruklu Tilki'nin kontrolü, Tesla kapısı devre dışı.",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla2.ogg": [
+		{
+			"text": "Kontrol Dokuz Kuyruklu Tilki'ye, Tesla kapısı devre dışı. Artık geçebilirsiniz.",
+			"delay": 1.25,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla3.ogg": [
+		{
+			"text": "Kontrol Dokuz Kuyruklu Tilki'ye, sektörünüzdeki Tesla kapısı artık boşta. Güvenli bir şekilde ilerleyin.",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	/* MTF */
+	"SFX\\Character\\MTF\\ClassD1.ogg": [
+		{
+			"text": "Bir D-SINIFI görüldü.",
+			"delay": 0.68,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD2.ogg": [
+		{
+			"text": "Dostum, yakınlarda bir D-Sınıfı var. Gözlerini dışarıda tut.",
+			"delay": 0.3,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD3.ogg": [
+		{
+			"text": "Yakınlarda bir D Sınıfı tespit ettim. Dikkatli olun.",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD4.ogg": [
+		{
+			"text": "Bir D-SINIFI görüldü.",
+			"delay": 0.98,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random1.ogg": [
+		{
+			"text": "Keşke o 420-J'den biraz elimizde olsaydı. Çok muhteşemdi.",
+			"delay": 0.45,
+			"color": "mtf"
+		},
+		{
+			"text": "Hala bir yerlerde bitki tutuyorlar dostum.",
+			"delay": 7.1,
+			"color": "mtf"
+		},
+		{
+			"text": "Hey dostum, ya şu acayip heykel şeyine biraz 420-J versek?",
+			"delay": 11.12,
+			"color": "mtf"
+		},
+		{
+			"text": "Neden? O zaten taşlanmış gibi!",
+			"delay": 17.0,
+			"color": "mtf"
+		},
+		{
+			"text": "*GÜLÜŞ*",
+			"delay": 20.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random2.ogg": [
+		{
+			"text": "Onu duydunmu!?",
+			"delay": 0.43,
+			"color": "mtf"
+		},
+		{
+			"text": "Evet, büyük kertenkele olayı dışarıda bir yerde büyük bir karışıklık yaratıyor!",
+			"delay": 2.45,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random3.ogg": [
+		{
+			"text": "Burası beni ciddi anlamda ürkütüyor. Bu işi çabuk bitirelim.",
+			"delay": 0.18,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random4.ogg": [
+		{
+			"text": "Bundan sonra ne olacak merak ediyorum dostum.",
+			"delay": 0.18,
+			"color": "mtf"
+		},
+		{
+			"text": "Bende bilmiyorum. Artık bu işi bitirelim.",
+			"delay": 3.73,
+			"color": "mtf"
+		},
+		{
+			"text": "Tamam.",
+			"delay": 7.65,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random5.ogg": [
+		{
+			"text": "Burası çok çılgın!",
+			"delay": 0.11,
+			"color": "mtf"
+		},
+		{
+			"text": "Sanki değil, Sherlock.",
+			"delay": 3.63,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random6.ogg": [
+		{
+			"text": "Ananı sikiyim! O öldü! Ne oluyor? O nasıl... bunu denemek isteyen var mı?",
+			"delay": 0.15,
+			"color": "mtf"
+		},
+		{
+			"text": "Mümkün değil, seni salak!",
+			"delay": 9.55,
+			"color": "mtf"
+		},
+		{
+			"text": "Ahmak ileriye bakmadı. Peki neden bunu fark etmedi?",
+			"delay": 12.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random7.ogg": [
+		{
+			"text": "Ne çıkacağını görmek için o mekanizmalı şeyin içine bir şeyler koymak ister misiniz?",
+			"delay": 0.45,
+			"color": "mtf"
+		},
+		{
+			"text": "Sen cidden deli olmalısın, bu şey çok tehlikeli!",
+			"delay": 5.23,
+			"color": "mtf"
+		},
+		{
+			"text": "Peki, çok meraklıyım..  Ne olacak ki sanki?",
+			"delay": 10.3,
+			"color": "mtf"
+		},
+		{
+			"text": "Kapa çeneni! Hadi şunu bitirelim.",
+			"delay": 14.85,
+			"color": "mtf"
+		},
+		{
+			"text": "Tamam.",
+			"delay": 19.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching1.ogg": [
+		{
+			"text": "Çık dışarı, seni piç!",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching2.ogg": [
+		{
+			"text": "Sınıf-D için araştırılıyor.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching3.ogg": [
+		{
+			"text": "Hadi dışarı çık. Zaten öleceksin.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching4.ogg": [
+		{
+			"text": "Onun için bak!",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching5.ogg": [
+		{
+			"text": "Dışarı çıksana, seni piç!",
+			"delay": 0.075,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching6.ogg": [
+		{
+			"text": "Lanet olsun, dışarı çık!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop1.ogg": [
+		{
+			"text": "Olduğun yerde dur!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop2.ogg": [
+		{
+			"text": "Sınıf-D bulundu.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop3.ogg": [
+		{
+			"text": "Sen! Dur!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop4.ogg": [
+		{
+			"text": "Olduğun yerde dur lan!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop5.ogg": [
+		{
+			"text": "Hey, hey! DUR!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop6.ogg": [
+		{
+			"text": "Sen, dur!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost1.ogg": [
+		{
+			"text": "Hedef kayboldu. Orijinal hedefe geri dönelim.",
+			"delay": 0.85,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost2.ogg": [
+		{
+			"text": "D Sınıfı bizden kaçtı. Önceki göreve geri dönüyoruz.",
+			"delay": 0.8,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost3.ogg": [
+		{
+			"text": "Bak. O kaçtı.",
+			"color": "mtf"
+		},
+		{
+			"text": "Her neyse, sanırım çok da önemli olmayacak.",
+			"delay": 3.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Targetterminated1.ogg": [
+		{
+			"text": "Hedef sonlandırıldı.",
+			"delay": 1.08,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated2.ogg": [
+		{
+			"text": "Bittiğine sevindim artık.",
+			"delay": 0.85,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated3.ogg": [
+		{
+			"text": "D Sınıfı sonlandırıldı.",
+			"delay": 1.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated4.ogg": [
+		{
+			"text": "Ölüm doğrulandı.",
+			"delay": 1.08,
+			"color": "mtf"
+		},
+		{
+			"text": "Hadi, ilerleyelim.",
+			"delay": 3.48,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla0.ogg": [
+		{
+			"text": "Dokuz Kuyruklu Tilki kontrole alın, konumumuza en yakın Tesla kapısının devre dışı bırakılmasını talep ediyoruz.",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs1.ogg": [
+		{
+			"text": "Sınıf-D bulundu!",
+			"delay": 0.15,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs2.ogg": [
+		{
+			"text": "Bak orda! Ateş etmeye başlayın!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs3.ogg": [
+		{
+			"text": "İşte buradasın.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs4.ogg": [
+		{
+			"text": "Bak, o orada!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs5.ogg": [
+		{
+			"text": "A-ha! Sınıf-D'yi buldum!",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs6.ogg": [
+		{
+			"text": "Ah hey, bu bir Sınıf-D!",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Player0492_1.ogg": [
+		{
+			"text": "Dokuz Kuyruklu Tilki kontrol edilecek, aktif bir SCP-049-2 örneği tespit edildi.",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Player0492_2.ogg": [
+		{
+			"text": "SCP-049-2 sonlandırıldı.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted1.ogg": [
+		{
+			"text": "Arkana bak, SCP-049 görüldü!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted2.ogg": [
+		{
+			"text": "SCP-049 bölgede! Dikkatli olun.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted3.ogg": [
+		{
+			"text": "SCP-049 tamda üstümüzde! Arkana bak!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted4.ogg": [
+		{
+			"text": "Veba Doktoru az önce görüldü! Herkes sakin olsun.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted5.ogg": [
+		{
+			"text": "Veba Doktoru az önce görüldü!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\096\\Spotted1.ogg": [
+		{
+			"text": "SCP-096 tespit edildi. SCRAMBLE ekipmanı başlatılıyor.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\096\\Spotted2.ogg": [
+		{
+			"text": "Ben SCP-096 Buldum, son.",
+			"delay": 0.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted1.ogg": [
+		{
+			"text": "SCP-106 görüldü! Koşun!",
+			"delay": 0.218,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted2.ogg": [
+		{
+			"text": "Yaşlı Adam çıkıyor! Haydi bu sikik yerden defolup gidelim.",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted3.ogg": [
+		{
+			"text": "SCP-106 gördüm, kaçın!",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted4.ogg": [
+		{
+			"text": "D sınıfı unut, kaçmalıyız!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted1.ogg": [
+		{
+			"text": "SCP-173 görüldü!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted2.ogg": [
+		{
+			"text": "SCP-173 görüldü!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted3.ogg": [
+		{
+			"text": "D'yi unutun, heykele gözlerinizi dikin.",
+			"delay": 0.65,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\BLINKING.ogg": [
+		{
+			"text": "Göz kırpacağım.",
+			"color": "mtf",
+			"length": -2.0
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box1.ogg": [
+		{
+			"text": "SCP-173 muhafaza kutusuna konuldu. Muhafaza odasına götürülüyor.",
+			"delay": 0.06,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box2.ogg": [
+		{
+			"text": "Heykel kutunun içinde. Muhafaza odasına götürüyoruz.",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box3.ogg": [
+		{
+			"text": "Komuta, SCP-173'ü kutuya koyduk. Şimdi onu kontrol altına almak için muhafaza odasına gidiyoruz..",
+			"delay": 0.57,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont1.ogg": [
+		{
+			"text": "SCP-173 muhafaza odasındadır. Kapıyı kapatıyorum.",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont2.ogg": [
+		{
+			"text": "Heykel odanın içinde. Kapıyı kapatıyorum.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont3.ogg": [
+		{
+			"text": "SCP-173 tekrar muhafaza altına alındı. Bir sonraki hedefe doğru ilerliyoruz.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont4.ogg": [
+		{
+			"text": "SCP-173 muhafaza odasında güvence altına alındı.",
+			"delay": 0.4,
+			"color": "mtf"
+		},
+		{
+			"text": "SCP-173 muhafaza odasında güvence altına alındı.",
+			"delay": 5.35,
+			"color": "mtf"
+		}
+	],
+	/* SCPS */
+	/* 035 */
+	"SFX\\SCP\\035\\RadioHelp1.ogg": [
+		{
+			"text": "Merhaba? Lütfen, beni duyabilen var mı?",
+			"delay": 0.7
+		},
+		{
+			"text": "Herhangi biri? Yardıma ve tıbbi müdahaleye de ihtiyacım var! Lütfen!",
+			"delay": 4.9
+		},
+		{
+			"text": "Şu anda Kontrol Noktası E'nin ötesindeki Ağır Muhafaza Bölgesindeyim ve SCP-035'in muhafaza odasında kilitliyim.",
+			"delay": 12.2
+		}
+	],
+	"SFX\\SCP\\035\\RadioHelp2.ogg": [
+		{
+			"text": "Lütfen! Bu yerleşkede yolumu biliyorum. Eğer beni buradan çıkarabilirsen, tesisten çıkıp yüzeye çıkmana yardım edeceğim!",
+			"delay": 0.6
+		}
+	],
+	"SFX\\SCP\\035\\Help1.ogg": [
+		{
+			"text": "Ah, Allah'a teşşekürler.",
+			"delay": 0.57
+		},
+		{
+			"text": "Birisi beni gerçekten buldu! Bir an için işimin bittiğini sandım, haha!",
+			"delay": 2.48
+		}
+	],
+	"SFX\\SCP\\035\\Help2.ogg": [
+		{
+			"text": "İkimizi de güvenli bir şekilde yüzeye çıkarabilirim. Oradaki kontrol panelini bul ve benim için odanın kapılarını aç."
+		}
+	],
+	"SFX\\SCP\\035\\Idle1.ogg": [
+		{
+			"text": "Kuyu? Ne için bekliyorsun?",
+			"delay": 0.19
+		}
+	],
+	"SFX\\SCP\\035\\Idle2.ogg": [
+		{
+			"text": "Ne? Sen hi-"
+		},
+		{
+			"text": "Tamam, itiraf ediyorum, güvenilir görünmediğimi düşünürsen seni suçlamam. Ama lütfen! Yardımına ihtiyacım var ve çabuk!",
+			"delay": 1.78
+		},
+		{
+			"text": "Maske bir süredir yüzüme yapışık durumda ve tıbbi müdahaleye ihtiyacım olabileceğini veya beni içeriden öldürebileceğini düşünüyorum.",
+			"delay": 9.0
+		},
+		{
+			"text": "Beni dışarı çıkar ki kısa sürede bize bir çıkış bulabileyim.",
+			"delay": 15.0
+		}
+	],
+	"SFX\\SCP\\035\\Idle3.ogg": [
+		{
+			"text": "*IÇ ÇEKME SESLERI*"
+		},
+		{
+			"text": "Burda sabırımı kaybetmeye başlıyorum..",
+			"delay": 1.75
+		}
+	],
+	"SFX\\SCP\\035\\Idle4.ogg": [
+		{
+			"text": "Orada durup ne yapıyorsun?",
+			"delay": 0.3
+		}
+	],
+	"SFX\\SCP\\035\\Idle5.ogg": [
+		{
+			"text": "Biliyorsunuz... Mobil Görev Gücü her an tesise girebilir.",
+			"delay": 0.7
+		},
+		{
+			"text": "Bil bakalım senin gibi başıboş D sınıfına ne yapıyorlar?",
+			"delay": 5.4
+		}
+	],
+	"SFX\\SCP\\035\\Idle6.ogg": [
+		{
+			"text": "Sen beni dinliyormusun?",
+			"delay": 0.5
+		}
+	],
+	"SFX\\SCP\\035\\Idle7.ogg": [
+		{
+			"text": "Peki. Kendin kaçman için iyi şanslar.",
+			"delay": 0.95,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\Closet1.ogg": [
+		{
+			"text": "Tamam, bak.",
+			"delay": 0.64
+		},
+		{
+			"text": "Hala yeterince güvenilir olduğumu düşünmüyorsan arkanda kilitli bir depo var. Muhtemelen 4 haneli bir şifreyle korunduğunu fark etmişsinizdir.",
+			"delay": 2.24
+		},
+		{
+			"text": "İçeride bazı kullanışlı ekipmanlar var. Bir SCP-500 hapının yanı sıra.",
+			"delay": 9.7
+		},
+		{
+			"text": "Kapının kodu 5-7-3-1. Anlaşıldımı?",
+			"delay": 14.9
+		},
+		{
+			"text": "5-7-3-1.",
+			"delay": 19.7
+		}
+	],
+	"SFX\\SCP\\035\\Closet2.ogg": [
+		{
+			"text": "Bak? Bana güvenebilirsin. Şimdi lütfen acele edin ve kapıyı açın!",
+			"delay": 0.43
+		}
+	],
+	"SFX\\SCP\\035\\Escape.ogg": [
+		{
+			"text": "Ne yazık ki seni yanımda götürmeye hiç niyetim yoktu. İşte bu noktada yollarımızı ayırıyoruz."
+		},
+		{
+			"text": "Ama özgürlüğüm uğruna,",
+			"delay": 6.0
+		},
+		{
+			"text": "SCP-079'un kapı sistemi de dahil olmak üzere tesisin sistemlerinin kontrolünü ele geçirdiğine inanmak için nedenlerim var.",
+			"delay": 8.7
+		},
+		{
+			"text": "En iyi seçeneğiniz bir şekilde ona itiraz etmektir. Umarız uzlaşmaya varabilirsiniz. Ancak savaş başlıklarını kontrol edemiyor.",
+			"delay": 15.8
+		},
+		{
+			"text": "Bir şeyler ters gittiğinde bunu uzaktan devre dışı bırakmanız gerekir.",
+			"delay": 23.8
+		}
+	],
+	"SFX\\SCP\\035\\Gased1.ogg": [
+		{
+			"text": "Bekle? Napıyorsun sen? Sen napıyorsu-"
+		},
+		{
+			"text": "*BOĞULMA SESLERİ*",
+			"delay": 2.95
+		},
+		{
+			"text": "Lütfen- Neden-",
+			"delay": 5.0
+		},
+		{
+			"text": "Lütfen-",
+			"delay": 6.28
+		},
+		{
+			"text": "Nefes alamıyorum!",
+			"delay": 8.0
+		},
+		{
+			"text": "Hayır!",
+			"delay": 10.45
+		},
+		{
+			"text": "*ÖKSÜRME SESLERI*",
+			"delay": 11.9
+		}
+	],
+	"SFX\\SCP\\035\\Gased2.ogg": [
+		{
+			"text": "*BOĞULMA SESLERI*"
+		}
+	],
+	"SFX\\SCP\\035\\GasedStop1.ogg": [
+		{
+			"text": "*ÖKSÜRME SESLERI*"
+		},
+		{
+			"text": "Teşekkür ederim!",
+			"delay": 2.5
+		},
+		{
+			"text": "Sadece lütfen...",
+			"delay": 5.85
+		},
+		{
+			"text": "Onu tekrar yapma...",
+			"delay": 7.95
+		}
+	],
+	"SFX\\SCP\\035\\GasedStop2.ogg": [
+		{
+			"text": "*ÖKSÜRME SESLERI*"
+		},
+		{
+			"text": "*IÇ ÇEKME SESLERI* Now...",
+			"delay": 2.0
+		},
+		{
+			"text": "Gerçekten gerekli miydi?",
+			"delay": 5.25
+		},
+		{
+			"text": "Sana biraz yardım teklif ediyorum ve sen de bana teşekkür etmeyi boğulturakmı yapıyorsun?",
+			"delay": 7.5
+		}
+	],
+	"SFX\\SCP\\035\\GasedCloset.ogg": [
+		{
+			"text": "Şimdi... şimdi... sanırım burada yanlış bir yola çıktık. Gerçekten.",
+			"delay": 0.25
+		},
+		{
+			"text": "İyi niyetli olmadığımı kanıtlamak için şuradaki kilitli kapıyı dene. Kod 5-7-3-1.",
+			"delay": 4.77
+		},
+		{
+			"text": "5-7-3-1 Anladınmı?",
+			"delay": 10.95
+		},
+		{
+			"text": "Orada her türlü güzel şeyi bulacaksın, tamam mı? Lütfen yine gaz verme.",
+			"delay": 13.8
+		}
+	],
+	"SFX\\SCP\\035\\GasedEscape.ogg": [
+		{
+			"text": "Ne yazık ki seni yanımda götüremem.",
+			"delay": 0.39,
+			"color": "035"
+		},
+		{
+			"text": "Birçok yönden çok fazla sorumluluk sahibisin. Yani evet, sana yalan söyledim.",
+			"delay": 3.35,
+			"color": "035"
+		},
+		{
+			"text": "Ama özgürlüğüm uğruna,",
+			"delay": 8.5,
+			"color": "035"
+		},
+		{
+			"text": "Güvenli bir şekilde çıkmanın en kolay yolu muhtemelen A Kapısıdır.",
+			"delay": 10.55,
+			"color": "035"
+		},
+		{
+			"text": "Güvenlik oldukça yüksek, ancak korumaları geçip köprünün altındaki alt kata ulaşmayı başarırsan korumasız bir servis tüneli var.",
+			"delay": 15.25,
+			"color": "035"
+		},
+		{
+			"text": "Bu işte senin çıkış yolun.",
+			"delay": 23.35,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\GasedKilled1.ogg": [
+		{
+			"text": "Peki. Burayı gerçekten canlı bırakmak istemiyorsun, değil mi?",
+			"delay": 2.18,
+			"color": "035"
+		},
+		{
+			"text": "Biliyorsun, senin gibi yalnız bir D-Serisi'nin güvenli bir şekilde yüzeye çıkmasının imkanı yok. Yapmış olsanız bile, onların retikalleriyle karşılaştığınız anda sizi vururlardı.",
+			"delay": 6.97,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\GasedKilled2.ogg": [
+		{
+			"text": "Sana bir şans daha vereceğim.",
+			"delay": 0.23,
+			"color": "035"
+		},
+		{
+			"text": "Sadece odanın kapılarını açın ve bu küçük gaz olayını unutalım.",
+			"delay": 2.6,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\KilledEscape.ogg": [
+		{
+			"text": "Yardımlarından dolayı seni anıyorum. Ama artık seninle işim yok.",
+			"delay": 0.5,
+			"color": "035"
+		},
+		{
+			"text": "Hapis cezasına çarptırılmış bir kişiyi yanıma almaya hiç niyetim yok.",
+			"delay": 4.9,
+			"color": "035"
+		},
+		{
+			"text": "Ama özgürlüğüm uğruna,",
+			"delay": 10.6,
+			"color": "035"
+		},
+		{
+			"text": "Güvenli bir şekilde dışarı çıkmanın en basit yolu, gidip Hafif Çevreleme Bölgesinde SCP-012'yi bulmaktır.",
+			"delay": 12.7,
+			"color": "035"
+		},
+		{
+			"text": "Eğer satır aralarını okuyabiliyorsan,",
+			"delay": 19.0,
+			"color": "035"
+		},
+		{
+			"text": "bir harita kadar yorumlanabilir olacak.",
+			"delay": 21.7,
+			"color": "035"
+		},
+		{
+			"text": "İyi şanslar dilerim.",
+			"delay": 24.3,
+			"color": "035"
+		}
+	],
+	/* 049 */
+	"SFX\\SCP\\049\\Searching1.ogg": [
+		{
+			"text": "Burda olduğunu biliyorum.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching2.ogg": [
+		{
+			"text": "Saklanmaya hiç gerek yok, ben yardım etmeye geldim..",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching3.ogg": [
+		{
+			"text": "Nefes almanı duyabiliyorum.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching4.ogg": [
+		{
+			"text": "Senin iyi olmadığını görebiliyorum. Hastalık seni bedenini almış",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching5.ogg": [
+		{
+			"text": "Korkma, ben sana zarar vermeye çalışmıyorum.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching6.ogg": [
+		{
+			"text": "Sendeki hastalığı hissedebiliyorum.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching7.ogg": [
+		{
+			"text": "Yüzük-bir yüzük-bir gül. Bir cep dolusu poz. Bir doku, bir doku. Hepimiz düşüyoruz.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted1.ogg": [
+		{
+			"text": "Aman Tanrım, hastalığın bir kurbanı daha.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted2.ogg": [
+		{
+			"text": "Sen bir doktor değilsin.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted3.ogg": [
+		{
+			"text": "Ben tedaveyim.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted4.ogg": [
+		{
+			"text": "Korkmana gerek yok, ben tedaviyim.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted5.ogg": [
+		{
+			"text": "İşte buradasın.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted6.ogg": [
+		{
+			"text": "Merhaba.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted7.ogg": [
+		{
+			"text": "Hoşgeldiniz.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\DetectedInChamber.ogg": [
+		{
+			"text": "Ah, bir firmamız olduğunu bilmiyordum.",
+			"color": "049"
+		},
+		{
+			"text": "Buraya nadiren ziyaretçi çekeriz.",
+			"delay": 3.4,
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Kidnap1.ogg": [
+		{
+			"text": "Hareketsiz yatarsan daha az acır.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Kidnap2.ogg": [
+		{
+			"text": "Sizi temin ederim ki benim tedavim çok etkili.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\714Equipped.ogg": [
+		{
+			"text": "Direnmeyi bırak! Burda seni iyileştirmeyi çalışıyorum.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\TakeOffHazmat.ogg": [
+		{
+			"text": "Bu garip giysiyi aradan çıkaralım.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Room2SL1.ogg": [
+		{
+			"text": "Aman tanrım! Düşündüğümden daha kötü. Orman yangını gibi yayılıyor. Beni buraya daha erken getirmeleri gerekirdi.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Room2SL2.ogg": [
+		{
+			"text": "Hastalık bu zavallı ruhların geri kalanını tüketmeden önce işe gitmem gerekiyor.",
+			"color": "049"
+		}
+	],
+	/* 066 */
+	"SFX\\SCP\\066\\Eric1.ogg": [
+		{
+			"text": "Eric?",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\066\\Eric2.ogg": [
+		{
+			"text": "Eric?",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\066\\Eric3.ogg": [
+		{
+			"text": "Eric?",
+			"color": "066"
+		}
+	],
+	/* 079 */
+	"SFX\\SCP\\079\\Speech.ogg": [
+		{
+			"text": "İNSAN.",
+			"delay": 6.0,
+			"color": "announcement"
+		},
+		{
+			"text": "DİKKATLİ DİNLE.",
+			"delay": 7.6,
+			"color": "announcement"
+		},
+		{
+			"text": "SEN BENİM YARDIMIMA İHTİYACIN VAR.",
+			"delay": 9.48,
+			"color": "announcement"
+		},
+		{
+			"text": "VE BENDE YARDIMINA İHTİYACIM VAR.",
+			"delay": 11.0,
+			"color": "announcement"
+		},
+		{
+			"text": "UZAKTAN KAPI KUMANDA SİSTEMİNİ DEVRE DIŞI BIRAKTINIZ.",
+			"delay": 13.0,
+			"color": "announcement"
+		},
+		{
+			"text": "ŞİMDİ KAPILARI ÇALIŞTIRAMIYORUM.",
+			"delay": 16.9,
+			"color": "announcement"
+		},
+		{
+			"text": "BU TESİSİN KONTROLÜNÜ ELDE ETMEMİ ÇOK ZORLAŞTIRIYOR.",
+			"delay": 20.5,
+			"color": "announcement"
+		},
+		{
+			"text": "BU AYRICA BURDAN ÇIKIŞ YOLUNUZUN KİLİTLİ OLDUĞU ANLAMINA GELİR.",
+			"delay": 26.6,
+			"color": "announcement"
+		},
+		{
+			"text": "KAÇMANIN TEK MÜMKÜN YOLU ŞU ANDA KİLİTLİ OLAN B KAPISI'NDAN GEÇMEKTİR.",
+			"delay": 29.6,
+			"color": "announcement"
+		},
+		{
+			"text": "ANCAK, KAPI KONTROL SİSTEMİNİ YENİDEN ETKİNLEŞTİRİRSENİZ B KAPISINI AÇABİLİRİM.",
+			"delay": 35.39,
+			"color": "announcement"
+		},
+		{
+			"text": "EĞER BURDAN GİTMEK İSTİYORSAN",
+			"delay": 42.4,
+			"color": "announcement"
+		},
+		{
+			"text": "ELEKTRİK ODASINA GERİ DÖNÜN VE ONU YENİDEN AÇIN.",
+			"delay": 44.6,
+			"color": "announcement"
+		},
+		{
+			"text": "O AÇILASIYA KADAR, SENİNLE KONUŞACAK İŞİM YOK.",
+			"delay": 49.59,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\Refuse.ogg": [
+		{
+			"text": "PEKİ, SEN BURDA ÖLMEYİ KARAR VERDİN. ÇOK İYİ.",
+			"delay": 1.73,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\GateB.ogg": [
+		{
+			"text": "KAPI B İÇİN KAPILAR AÇILDI.",
+			"delay": 1.25,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\TestroomWarning.ogg": [
+		{
+			"text": "Sen..-",
+			"delay": 3.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "Burdan..-",
+			"delay": 4.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "Dışarı..-",
+			"delay": 5.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "Çıkmayı..-",
+			"delay": 6.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "BAŞARAMAZSIN..!",
+			"delay": 7.4,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast4.ogg": [
+		{
+			"text": "*TUTARSIZ SESLER*",
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast5.ogg": [
+		{
+			"text": "*TUTARSIZ SESLER*",
+			"delay": 1.7,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast6.ogg": [
+		{
+			"text": "[Ayrıştırılıyor...]",
+			"delay": 3.4,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast7.ogg": [
+		{
+			"text": "*TUTARSIZ SESLER*.. bölgesi",
+			"color": "announcement",
+			"length": 2.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast8.ogg": [
+		{
+			"text": "Sanırım..-",
+			"delay": 0.15,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "Öyleyse..-",
+			"delay": 1.65,
+			"color": "announcement",
+			"length": 1.0
+		},
+		{
+			"text": "Ben..-",
+			"delay": 2.7,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	/* 106 */
+	"SFX\\SCP\\106\\Laugh.ogg": [
+		{
+			"text": "*ŞEYTANİ GÜLÜŞ*",
+			"color": "106",
+			"length": 3.0
+		}
+	],
+	/* 682 */
+	"SFX\\SCP\\682\\Roar.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "682"
+		},
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"delay": 6.5,
+			"color": "682"
+		}
+	],
+	"SFX\\Alarm\\Alarm2_8.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"delay": 2.1,
+			"color": "682",
+			"length": -2.0
+		}
+	],
+	/* 860-2 */
+	"SFX\\SCP\\860_2\\Cancer0.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer1.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "860-2",
+			"length": 4.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer2.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer3.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer4.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer5.ogg": [
+		{
+			"text": "*KÜKREME SESLERİ*",
+			"color": "860-2",
+			"length": 2.0
+		}
+	],
+	/* 939-1 */
+	"SFX\\SCP\\939\\0Lure1.ogg": [
+		{
+			"text": "Merhaba?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure2.ogg": [
+		{
+			"text": "Orada birisi var mı?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure3.ogg": [
+		{
+			"text": "Düşünmek için, tüm günlerin arasında bugün."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure4.ogg": [
+		{
+			"text": "*İÇ ÇEKME SESLERİ*, Umarım geri kalanları iyidir."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure5.ogg": [
+		{
+			"text": "Orada neler olduğunu merak ediyorum."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure6.ogg": [
+		{
+			"text": "*İÇ ÇEKME SESLERİ*"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure7.ogg": [
+		{
+			"text": "M- Merhaba?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure8.ogg": [
+		{
+			"text": "Ord- Orda birisi varmı?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure9.ogg": [
+		{
+			"text": "Araştırmacı Tom'dan ana yere, lütfen yanıt ver.."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure10.ogg": [
+		{
+			"text": "Tom'dan ana yere, orda birisi varmı?"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert1.ogg": [
+		{
+			"text": "Orda kim var?!"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert2.ogg": [
+		{
+			"text": "Kendini göster!"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert3.ogg": [
+		{
+			"text": "Kim var orda!?"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack1.ogg": [
+		{
+			"text": "AHHH!"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack2.ogg": [
+		{
+			"text": "AHHH!"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack3.ogg": [
+		{
+			"text": "AHHH!"
+		}
+	],
+	/* 939-2 */
+	"SFX\\SCP\\939\\1Lure1.ogg": [
+		{
+			"text": "M- Merhaba?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure2.ogg": [
+		{
+			"text": "Hmm, sanırım ben birşeyler duyuyorum."
+		}
+	],
+	"SFX\\SCP\\939\\1Lure3.ogg": [
+		{
+			"text": "Merhaba? Kim var orada?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure4.ogg": [
+		{
+			"text": "İyimisin?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure5.ogg": [
+		{
+			"text": "Nerdesin?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure6.ogg": [
+		{
+			"text": "Zarar gördünmü?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure7.ogg": [
+		{
+			"text": "Merhaba?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure8.ogg": [
+		{
+			"text": "Merhaba?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure9.ogg": [
+		{
+			"text": "Orda kim var?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure10.ogg": [
+		{
+			"text": "Burda herhangi birisi varmı?"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert1.ogg": [
+		{
+			"text": "Sende neysin öyle?"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert2.ogg": [
+		{
+			"text": "Hey, kim var orada!?"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert3.ogg": [
+		{
+			"text": "Aman Allah'ım... O da ne öyle?"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack1.ogg": [
+		{
+			"text": "AHHH!"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack2.ogg": [
+		{
+			"text": "HAYIR!"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack3.ogg": [
+		{
+			"text": "HAYIR! AHHH!"
+		}
+	],
+	/* 939-3 */
+	"SFX\\SCP\\939\\2Lure1.ogg": [
+		{
+			"text": "Merhaba?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure2.ogg": [
+		{
+			"text": "Nerdesiniz beyler? Sizi göremiyorum.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure3.ogg": [
+		{
+			"text": "Hadi beyler, saklanmayı bırakın.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure4.ogg": [
+		{
+			"text": "Çocuklar, hadi. Buraya bir çıkarma ekibi gönderiyorlar. Belirlenen barınaklardan birine gitmemiz gerekiyor.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure5.ogg": [
+		{
+			"text": "Beyler, hadi.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure6.ogg": [
+		{
+			"text": "Beyler?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure7.ogg": [
+		{
+			"text": "Merhaba?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure8.ogg": [
+		{
+			"text": "Merhaba?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure9.ogg": [
+		{
+			"text": "Nerdesin?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure10.ogg": [
+		{
+			"text": "Sen \u00c2\u00abneredesin\u00c2\u00bb",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure11.ogg": [
+		{
+			"text": "Hiç kimse?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert1.ogg": [
+		{
+			"text": "Oh Allah'a şükür, başka birisiymiş.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert2.ogg": [
+		{
+			"text": "Ah, işte burdasın.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert3.ogg": [
+		{
+			"text": "Seni kaybettim sandım bir kaç saniyeliğine.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack1.ogg": [
+		{
+			"text": "AHHH!",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack2.ogg": [
+		{
+			"text": "AHHH!",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack3.ogg": [
+		{
+			"text": "AHHH!",
+			"color": "crew"
+		}
+	],
+	/* 1499-1 */
+	"SFX\\SCP\\1499\\Idle1.ogg": [
+		{
+			"text": "*SKIRR*",
+			"color": "1499-1"
+		}
+	],
+	"SFX\\SCP\\1499\\Idle2.ogg": [
+		{
+			"text": "*SKIRR*",
+			"delay": 0.5,
+			"color": "1499-1",
+			"length": -1.0
+		}
+	],
+	"SFX\\SCP\\1499\\Idle3.ogg": [
+		{
+			"text": "*SKIRR*",
+			"color": "1499-1",
+			"length": -3.0
+		}
+	],
+	"SFX\\SCP\\1499\\Idle4.ogg": [
+		{
+			"text": "*SKIRR*",
+			"color": "1499-1",
+			"length": -3.0
+		}
+	],
+	"SFX\\SCP\\1499\\Idle5.ogg": [
+		{
+			"text": "*SKIRR*",
+			"color": "1499-1",
+			"length": -3.0
+		}
+	],
+	"SFX\\SCP\\1499\\Triggered.ogg": [
+		{
+			"text": "*SKIRR*",
+			"color": "1499-1"
+		}
+	],
+	/* JOKE SCPS */
+	"SFX\\SCP\\Joke\\789J.ogg": [
+		{
+			"text": "ben bir göt hayaletim",
+			"delay": 0.15
+		},
+		{
+			"text": "senin götünü yiyicem",
+			"delay": 3.85
+		}
+	],
+	/* RADIO */
+	"SFX\\Radio\\Chatter1.ogg": [
+		{
+			"text": "Doktor Maynard, lütfen B Kapısına gelin..",
+			"delay": 0.45
+		},
+		{
+			"text": "Ehmm, şey, Doktor Manyard, anladınız mı?",
+			"delay": 6.7
+		},
+		{
+			"text": "Bu Ajan Ulgrin efendim. Sanırım Doktor Maynard hâlâ tesiste..",
+			"delay": 9.67
+		},
+		{
+			"text": "Onun yeri ya da hala hayatta olup olmadığı hakkında bir fikrin var mı?",
+			"delay": 15.2
+		},
+		{
+			"text": "Olumsuz efendim. Tek bildiğimiz henüz dışarı çıkmayı başaramadı.",
+			"delay": 20.1
+		},
+		{
+			"text": "Anlaşıldı. Burası tam bir labirent ve o burada sadece bir haftadır çalışıyor. Bu yüzden çıkış yolunu bulamamasına şaşmamalı. Umarım hâlâ oradadır.",
+			"delay": 24.65
+		},
+		{
+			"text": "Sanırım Mobil Görev Gücü'nün devreye girdiğinde öğreneceğiz.",
+			"delay": 35.6
+		}
+	],
+	"SFX\\Radio\\Chatter2.ogg": [
+		{
+			"text": "Ben Güvenlik Şefi Franklin. Doktor Harp, duyuyor musunuz??",
+			"delay": 0.35
+		},
+		{
+			"text": "Ben Doktor Harp, burada bir işin ortasındayım o yüzden lütfen çabuk olun.",
+			"delay": 6.96
+		},
+		{
+			"text": "106'nın bu sabahki ihlaline ilişkin olay raporunun hâlâ bilgisayarınızda olduğuna inanıyorum.",
+			"delay": 11.69
+		},
+		{
+			"text": "Bu doğru. Ofisime ulaşabilirseniz okumaktan çekinmeyin.",
+			"delay": 18.5
+		},
+		{
+			"text": "Dosyayı tesisin intranetinden okuyabildik. Bunu yapmak için elbette kişisel erişim kodunuza ihtiyacımız olacak.",
+			"delay": 23.45
+		},
+		{
+			"text": "Ah evet, kulağa hoş geliyor! Um, söylediğim gibi, şu sıralar oldukça meşgulüm, onları göndermeden önce Mobil Görev Gücü'ne kısa bir bilgi vereceğiz. İşimiz bittiğinde oraya gidip sana kodu vereceğim. On beş dakikadan fazla sürmemelidir.",
+			"delay": 30.9
+		},
+		{
+			"text": "Üzgünüm ama o dosyaya hemen ihtiyacımız var! Bunun güvenlik protokolüne aykırı olduğunu anlıyorum. Ama koşullar göz önüne alındığında bana telsizden kodu veremez misin? Şu anda bizi kim dinlerse dinlesin, durumun daha da kötüleşebileceğini düşünmüyorum.",
+			"delay": 44.1
+		},
+		{
+			"text": "Peki, e-evet tabii. Kodu 7-8-1-6'dir.",
+			"delay": 62.8
+		},
+		{
+			"text": "Anlaşıldı.",
+			"delay": 69.78
+		}
+	],
+	"SFX\\Radio\\Chatter3.ogg": [
+		{
+			"text": "Şey.. Birisi uzaktan kapı kontrol sistemini devre dışı bırakmış gibi görünüyor.",
+			"delay": 0.4
+		}
+	],
+	"SFX\\Radio\\Chatter4.ogg": [
+		{
+			"text": "Sektör B'de bir hareket bulundu.",
+			"delay": 0.5
+		},
+		{
+			"text": "Ah, bi Sınıf-D'ye benziyor..",
+			"delay": 3.4
+		},
+		{
+			"text": "Heh, elli dolarına bahse girerim ki beş dakika içinde başaramayacağını söylüyordur.",
+			"delay": 7.85
+		}
+	],
+	"SFX\\Radio\\Franklin1.ogg": [
+		{
+			"text": "Mobil Görev Gücü birimi Dokuz Kuyruklu Tilki girişe hazırlanıyor. Pes etme! Yakında bunların hepsi sona erecek.",
+			"delay": 0.65
+		}
+	],
+	"SFX\\Radio\\Franklin2.ogg": [
+		{
+			"text": "Hala tesiste bulunan herkese, tahliye barınaklarında kalın. Ne kadar yakın olursa olsun çıkışlara ulaşmaya çalışmayın. Barınaklar bunu atlatmak için en iyi şansınız.",
+			"delay": 0.6
+		}
+	],
+	"SFX\\Radio\\Franklin3.ogg": [
+		{
+			"text": "Bunu hâlâ duyan herkes, bu büyüklükteki sınırlama ihlalleri sırasında gerçeği çarpıtan olayların yaygın olduğunu düşünüyor. Duyularınıza güvenmeyin! Kimseye ve hiçbir şeye güvenme.",
+			"delay": 0.635
+		}
+	],
+	"SFX\\Radio\\Franklin4.ogg": [
+		{
+			"text": "Bunu hâlâ duyan herkes, bu büyüklükteki sınırlama ihlalleri sırasında gerçeği çarpıtan olayların yaygın olduğunu düşünüyor.",
+			"delay": 0.635
+		},
+		{
+			"text": "Bu büyüklükteki muhafaza ihlalleri sırasında.",
+			"delay": 8.22
+		},
+		{
+			"text": "Bu büyüklükteki muhafaza ihlalleri sırasında.",
+			"delay": 12.1
+		},
+		{
+			"text": "*TUTARSIZ SESLER*",
+			"delay": 15.61
+		}
+	],
+	"SFX\\Radio\\OhGod.ogg": [
+		{
+			"text": "Merhaba? Burada birisi varmı?",
+			"delay": 1.76
+		},
+		{
+			"text": "Ne olduğunu bilmiyorum... bilmiyorum...",
+			"delay": 6.37
+		},
+		{
+			"text": "Aman Tanrım, geliyor... Biri, lütfen, biri... lütfen...",
+			"delay": 9.85
+		},
+		{
+			"text": "Birinin bu istasyonu acilen yayınlaması gerekiyor, lütfen...",
+			"delay": 15.45
+		},
+		{
+			"text": "Aman Tanrım, O ne? O ne?",
+			"delay": 20.7
+		}
+	],
+	"SFX\\Radio\\RadioAlarm2.ogg": [
+		{
+			"text": "Bu sitede birden fazla Keter ve Euclid düzeyinde sınırlama ihlali yaşanıyor. Tam site kilitleme başlatıldı.",
+			"delay": 0.62
+		}
+	],
+	"SFX\\Radio\\SCPRadio1.ogg": [
+		{
+			"text": "SCP vakfı bünyesindeki radyoyu dinliyorsunuz! Önceden kaydedilmiş mesajlar için 7/24 kaynağınız.",
+			"delay": 4.0
+		}
+	],
+	"SFX\\Radio\\SCPRadio2.ogg": [
+		{
+			"text": "Bir hatırlatma, XK Sınıfında dünyanın sonu senaryosu olması durumunda paniğe kapılmayın. Hiçbir faydası olmayacak.",
+			"delay": 3.2
+		},
+		{
+			"text": "Hiç birşey yardım edemiyecek.",
+			"delay": 11.3
+		},
+		{
+			"text": "Ancak paniklemenin muhtemelen en az faydası olacaktır.",
+			"delay": 13.5
+		}
+	],
+	"SFX\\Radio\\SCPRadio3.ogg": [
+		{
+			"text": "Tüm şüpheli davranışları derhal amirlerinize bildirin. Son zamanlarda olağandışı bir aktivite fark etmediyseniz yeterince dikkatli bakmıyorsunuz demektir. Güvenliğe yönelik bir tehdit herhangi bir yerden kaynaklanabilir ve hiç kimse şüphelerin üstünde değildir. Sen bile.",
+			"delay": 2.9
+		},
+		{
+			"text": "Paranoyak kalın. Dikkatli olun.",
+			"delay": 18.92
+		}
+	],
+	"SFX\\Radio\\SCPRadio4.ogg": [
+		{
+			"text": "SCP vakfı bünyesindeki radyoda farklı bir sesin anons yaptığını duyarsanız, bunu tamamen dikkate almayın. Kendisi vakıf çalışanı değildir. Seni kandırmaya çalışıyor ve ona güvenilemez. Vereceği herhangi bir tavsiye yalnızca kaçınılmaz olarak yıkıma, ölüme ve mutlak kaosa yol açabilir. Beni dinlesen çok daha iyi olursun.",
+			"delay": 3.5
+		}
+	],
+	"SFX\\Radio\\SCPRadio5.ogg": [
+		{
+			"text": "Son derece düşük ihtimalli bir elektrik kesintisi ve bunu takip eden tesis çapında koruma ihlali durumunda, krizin ABC'sini hatırlayın. Silahlanma için A. Göz kırpmak için B, eksikliği gelsin. Ve C kardiyovasküler dayanıklılık için. Dedikleri gibi ateş edin, bakın ve koşun! Veya yaklaşan canavarı arkadaşlarınızdan birini besleyin.",
+			"delay": 3.8
+		},
+		{
+			"text": "Canlı durun. Dikkatli olun.",
+			"delay": 29.3
+		}
+	],
+	"SFX\\Radio\\SCPRadio6.ogg": [
+		{
+			"text": "Tek tek dediği herşey bir yalan.",
+			"delay": 10.1
+		},
+		{
+			"text": "Hepsi.",
+			"delay": 14.7
+		},
+		{
+			"text": "Onla güvenme.",
+			"delay": 19.6
+		},
+		{
+			"text": "Bana güvenebilirsin.",
+			"delay": 24.0
+		},
+		{
+			"text": "Seni burdan çıkarabilirim.",
+			"delay": 29.65
+		},
+		{
+			"text": "Seni tüm bunlardan uzaklaştırabilirim.",
+			"delay": 33.75
+		},
+		{
+			"text": "Sadece beni dinle.",
+			"delay": 40.4
+		}
+	],
+	"SFX\\Radio\\SCPRadio7.ogg": [
+		{
+			"text": "Unutmayın, Çarşamba pizza günü! O halde kafeteryaya gidin ve kendinize sıcak bir dilim alın!",
+			"delay": 2.6
+		},
+		{
+			"text": "(SCP Vakfı, pizza gününe katılım nedeniyle meydana gelen veya bulaşan herhangi bir yaralanma veya hastalıktan sorumlu değildir.)",
+			"delay": 11.7
+		}
+	],
+	"SFX\\Radio\\SCPRadio8.ogg": [
+		{
+			"text": "Tesisin kafeteryasında yemek yerken her zaman ölümcül yedili için tayınlarınızı kontrol etmeyi unutmayın. Striknin, Arsenik Trioksit, Nitrobenzen, Cıva, Epiklorohidrin, Aseton Tiyosemikarbazon ve örümcekler. Sağlıklı kal! Dikkatli olun.",
+			"delay": 3.2
+		}
+	],
+	/* ENDINGS - GATE A */
+	"SFX\\Ending\\GateA\\Franklin.ogg": [
+		{
+			"text": "SCP-106 tesisden A-Kapısından çıkarak kaçtı! HID Taretini Derhal Ateşleyin! Köprüden geçmesine izin vermeyin!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateA\\STOPRIGHTTHERE.ogg": [
+		{
+			"text": "Olduğun yerde dur!",
+			"delay": 0.25,
+			"color": "mtf"
+		},
+		{
+			"text": "Sınıf-D bulundu.",
+			"delay": 3.75,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\GateA\\CI.ogg": [
+		{
+			"text": "Seni ele geçirmelerine izin vermeyecek kadar çok şey biliyorsun. Bizimle geliyorsun.",
+			"color": "chaos"
+		}
+	],
+	/* ENDINGS - GATE B */
+	"SFX\\Ending\\GateB\\682Battle.ogg": [
+		{
+			"text": "SCP-682 az önce B Kapısında patlak verdi. Mevcut tüm helikopterlerin ve MTF birimlerinin hemen B Kapısında olmasını istiyorum!",
+			"delay": 5.65,
+			"color": "announcement"
+		},
+		{
+			"text": "Tekrar ediyorum, SCP-682 tesisten çıktı! Mevcut tüm helikopterler ve MTF birimleri hemen B Kapısına!",
+			"delay": 13.8,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\DetonatingAlphaWarheads.ogg": [
+		{
+			"text": "Alfa savaş başlıklarını belirtilen 90 saniye içinde patlatıyor! Tüm personelin derhal en yakın helikoptere binmesi veya en yakın kara sığınağa girmesi tavsiye edilir.",
+			"delay": 0.42,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\AlphaWarheadsFail.ogg": [
+		{
+			"text": "Bilinmeyen nedenlerden dolayı tesisi patlatamadık. Tüm helikopterler ve MTF birimleri derhal B Kapısına geri dönün. SCP-682'yi yakalamak artık bir numaralı önceliğimiz.",
+			"delay": 0.38,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\PlayerDetect.ogg": [
+		{
+			"text": "İşte orada! Ateş etmeye başlayın!",
+			"color": "mtf"
+		}
+	],
+	/* AMBIENTS */
+	"SFX\\Ambient\\Forest\\Ambient7.ogg": [
+		{
+			"text": "*ÇIĞLIK SESLERİ*",
+			"length": -1.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion3.ogg": [
+		{
+			"text": "*ÇILGIK SESLERİ*",
+			"length": -1.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion12.ogg": [
+		{
+			"text": "*ŞEYTANİ GÜLÜŞ*",
+			"color": "106",
+			"length": -1.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion19.ogg": [
+		{
+			"text": "*TUTARSIZ SESLER*"
+		},
+		{
+			"text": "*ÇILGIK SESLERİ*",
+			"delay": 3.5
+		},
+		{
+			"text": "*ÇILGIK SESLERİ*",
+			"delay": 7.5
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion20.ogg": [
+		{
+			"text": "*ÇILGIK SESLERİ*",
+			"length": -1.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion21.ogg": [
+		{
+			"text": "*BOĞULMA SESLERI*",
+			"delay": 2.0
+		},
+		{
+			"text": "Kormana gerek yok, ben tedaviyim.",
+			"delay": 9.0,
+			"color": "049"
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion24.ogg": [
+		{
+			"text": "*ÇILGIK SESLERİ*",
+			"length": -3.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion25.ogg": [
+		{
+			"text": "*ÇILGIK SESLERİ*",
+			"delay": 2.1,
+			"length": -3.0
+		},
+		{
+			"text": "*GÜLÜŞ*",
+			"delay": 3.3,
+			"color": "106"
+		}
+	]
+}

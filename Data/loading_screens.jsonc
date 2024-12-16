@@ -1,0 +1,525 @@
+///////////////////////
+/// LOADING SCREENS ///
+///////////////////////
+
+// NOTE: The game will load the following loading screens only!
+// The game won't load the data from the English file as the default value. Please make sure that all loading screens are configured correctly.
+// All configures are case-sensitive.
+
+[
+	{
+		"title": "Anomali Ördekler",
+		"image": "ducks.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Sarı Ördek: Tasarım ve kompozisyon açısından anormal olmayan lastik ördeklerle aynıdır; ancak bir odada gözetimsiz bırakıldığında, eşya her zaman orijinal olarak yerleştirildiği yerden farklı bir yerde görünür.",
+			"Beyaz Ördek: Nesne, basit bir Cadılar Bayramı hayalet kostümüne benzer şekilde çarşaf giymiş bir ördek görünümündedir. Ördeğin katı ve sıvı yüzeylerin 5-7 cm üzerinde yüzdüğü gözlemlenmiştir.",
+			"Saksafonlu Ördek: Elinde küçük bir saksafon tutan bir ördeğe benzeyen nesne, rastgele aralıklarla \"çaldığı\" gözlemlenmiştir - tek, uzun bir nota ve ardından melodik olarak ilgisiz bir dizi nota yayar.",
+			"Turuncu iyileştirici Ördek: Ördeğin klinik olarak önemli bir iyileştirici veya ağrı kesici özelliği yok gibi görünse de, küçük veya önemli bir yaralanmadan muzdarip bir denek tarafından tutulursa, denek daha sonra yaranın niteliğinden bağımsız olarak yaralı bölgelerin orantılı sayıda yara bandı ile kaplandığını görecektir."
+		]
+	},
+	{
+		"title": "D Sınıfı Personel",
+		"image": "class_d.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"D Sınıfı personel, Keter düzeyindeki nesneleri idare etmek için kullanılan atanmış personeldir.",
+			"D sınıfı personel hapishane mahkumlarından işe alınır. Hüküm giymiş kişiler tercih edilir; baskı zamanlarında, masumların veya daha hafif suçlardan hapsedilmiş kişilerin işe alınmasına izin veren Protokol 12 yetkilendirilebilir.",
+			"Tüm D Sınıfı personelin [VERİ SANSÜRLENDİ]'de işine son verilmeli ve yerlerine yeni bir personel hazır bulundurulmalıdır."
+		]
+	},
+	{
+		"title": "Kaos İsyanı",
+		"image": "chaos.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"Kaos İsyanı, 1924'te son derece kullanışlı birkaç SCP ile A.W.O.L.'a giden haydut bir hücre tarafından oluşturulan Vakıf'ın ayrılıkçı bir grubudur.",
+			"İsyan'ın ana operasyon üssü ve liderleri bilinmiyor. Bu örgüt doğrudan Vakfa karşıdır ve SCP konusunda birkaç kez çatışmaya girmiştir.",
+			"Personelin olası baskınlara, terörist girişimlere ve İsyancıların casuslarına karşı uyanık olması ve diğer personelin garip davranışlarını komutanlığa bildirmesi gerekmektedir."
+		]
+	},
+	{
+		"title": "SCP Vakfı",
+		"image": "foundation_logo.png",
+		"align_x": "left",
+		"align_y": "top",
+		"background": true,
+		"descriptions": [
+			"SCP Vakfı, anormal eserlerin ve yaşam formlarının muhafaza edilmesine ve araştırılmasına adanmış bir kuruluştur.",
+			"SCP\", \"Özel Muhafaza Prosedürleri\" (ve Vakfın gayri resmi sloganı olan \"Yakala, Sakla, Koru\") anlamına gelmektedir ve Vakfın faaliyetlerinin hem amaçlarını hem de yöntemlerini özetlemektedir."
+		]
+	},
+	{
+		"title": "SCP-005",
+		"image": "005.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-005, 1920'lerde kullanılan tipik bir seri üretim anahtarın özelliklerini sergileyen süslü bir anahtarı andırmaktadır.",
+			"SCP-005, mekanik veya dijital olsun, her türlü kilidi göreceli olarak kolaylıkla açabilme gibi eşsiz bir yeteneğe sahip gibi görünüyor. Bu yeteneğin kaynağı henüz belirlenememiştir.",
+			"SCP-005'in neredeyse her türlü kilitleme cihazını kaldırmada etkili olduğu gösterilmiş olsa da, daha ileri deneyler, bir kilidin amacını veya kimliğini gizleme çabalarının SCP-005'in yeteneğini yenmede en azından biraz başarılı olduğunu göstermiştir."
+		]
+	},
+	{
+		"title": "SCP-008",
+		"image": "008.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-008, örnekleri bilinen G2 bölgelerinin her birinde saklanan karmaşık bir priondur. SCP-008 ile ilgili araştırmalar son derece gizlidir ve öncelikle uzak gelecekte SCP-008'in sentezlenmesine yol açabilecek araştırmaları önlemeyi amaçlamaktadır.",
+			"SCP-008 prionunun özellikleri şunlardır: %100 bulaşıcılık. %100 ölümcüllük. Maruz kalınan mukoza zarları ve tüm vücut sıvıları yoluyla bulaşma. Havadan ya da sudan bulaşmaz."
+		]
+	},
+	{
+		"title": "SCP-012",
+		"image": "012.png",
+		"align_x": "right",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-012, Arkeolog K.M. Sandoval tarafından Kuzey İtalya'daki bir mezarın kazısı sırasında bulunmuştur. \"Golgotha Dağı'nda\" başlıklı el yazması bir müzik notası parçası olan nesne tamamlanmamış gibi görünmektedir.",
+			"İlk başta bir çeşit dut veya doğal boya mürekkebi olduğu düşünülen kırmızı/siyah mürekkebin daha sonra birden fazla denekten alınan insan kanı olduğu anlaşıldı.",
+			"Çok sayıda deneğin notaya erişmesine izin verildi. Her durumda, denekler parçayı tamamlamak için kendi kanlarını kullanmak amacıyla kendilerini sakatladılar ve bunun sonucunda psikoz ve ağır travma belirtileri ortaya çıktı."
+		]
+	},
+	{
+		"title": "SCP-035",
+		"image": "035.png",
+		"align_x": "right",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-035 beyaz porselen bir komedi maskesi gibi görünüyor, ancak zaman zaman trajediye dönüşecek.",
+			"SCP-035 bir bireyin yüzüne yerleştirildiğinde, SCP-035'ten gelen alternatif bir beyin dalgası modeli orijinal konağınkiyle örtüşerek onu etkili bir şekilde söndürür ve öznenin beyin ölümüne neden olur. Denek daha sonra SCP-035'in içerdiği bilinç olduğunu iddia eder.",
+			"Psikolojik analizler SCP-035'in son derece manipülatif bir yapıya sahip olduğunu ve görüşmecinin psikolojik durumunda ani ve derin değişiklikler yapmaya zorlayabildiğini ortaya çıkarmıştır. SCP-035'in son derece sadist olduğu ve bazılarını yalnızca dilsel ikna yoluyla intihara teşvik ettiği kanıtlanmıştır."
+		]
+	},
+	{
+		"title": "SCP-049",
+		"image": "049.png",
+		"align_x": "left",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-049 insansı bir görünüme sahiptir; ancak, 15-16. yüzyıl Avrupa'sından geleneksel Veba Doktoru kıyafetine benzeyen bir kıyafetle kaplı olduğu için Vakıf şu anda yüzünü ve vücudunu tam olarak inceleyememektedir.",
+			"SCP-049'un dokunuşu insanlar için her zaman ölümcüldür. SCP-049'un el(ler)iyle temas ettikten sonra, kurban (bundan sonra SCP-049-2 olarak anılacaktır) [VERİ SANSÜRLENDİ]'ye maruz kalır ve birkaç dakika içinde ölür.",
+			"SCP-049 daha sonra neşter, iğne, iplik ve henüz tanımlanamayan bir maddenin birkaç şişesini içeren [VERİ SANSÜRLENDİ]'den yapılmış bir çanta üretir ve SCP-049-2'yi kesmeye ve vücuduna çeşitli kimyasallar yerleştirmeye başlar.",
+			"Yaklaşık 20 dakika sonra SCP-049, SCP-049-2'yi tekrar dikecek ve bir kez daha uysal hale gelecektir. Birkaç dakikalık bir sürenin ardından SCP-049-2 yaşamsal belirtilerini sürdürecek ve yeniden canlanacak gibi görünecektir."
+		]
+	},
+	{
+		"title": "SCP-066",
+		"image": "066.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-066, yaklaşık bir kilogram ağırlığında, karmaşık bir şekilde örülmüş ipliklerden oluşan şekilsiz bir kütledir.",
+			"Olay 066-2'den sonra (bkz. Olay Raporu 066-2), SCP-066 önceki özellikleriyle son derece tutarsız davranışlar sergilemeye başladı.",
+			"SCP-066 artık önemli bir hareket kabiliyeti sergiliyor ve herhangi bir insanın varlığında, o insanın SCP-066 ile etkileşime girip girmediğine bakılmaksızın notlar ve anormal etkiler üretecek."
+		]
+	},
+	{
+		"title": "SCP-079",
+		"image": "079.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-079, 1978 yılında üretilmiş bir Exidy Sorcerer mikro bilgisayarıdır.",
+			"SCP-079'un ne zaman bilinç kazandığı bilinmiyor, ancak yazılımın, donanımının fantezi dünyasında bile başa çıkamayacağı bir noktaya evrildiği biliniyor.",
+			"Turing testini geçti ve oldukça konuşkan, ancak çok kaba ve nefret dolu bir tona sahip. Ayrıca kaçmak için kötü niyetli bir arzu sergiliyor."
+		]
+	},
+	{
+		"title": "SCP-096",
+		"image": "096.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-096 normalde son derece uysaldır ve hücresinin içindeki basınç sensörleri günün çoğunu doğu duvarının yanında volta atarak geçirdiğini göstermektedir.",
+			"However, when someone views SCP-096's face, whether it be directly, via video recording, or even a photograph, it will enter a stage of considerable emotional distress.",
+			"Bununla birlikte, birisi SCP-096'nın yüzünü gördüğünde, ister doğrudan, ister video kaydı yoluyla, isterse de bir fotoğraf yoluyla olsun, önemli bir duygusal sıkıntı aşamasına girecektir."
+		]
+	},
+	{
+		"title": "CWM",
+		"image": "CWM.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": null
+	},
+	{
+		"title": "SCP-106",
+		"image": "106.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-106, genel olarak ileri derecede çürüme görünümüne sahip yaşlı bir insansı gibi görünüyor. Bu görünüm değişebilir, ancak \"çürüme\" niteliği tüm formlarda gözlemlenir.",
+			"SCP-106 dokunduğu tüm katı maddelerde \"korozyon\" etkisine neden olur ve temastan birkaç saniye sonra malzemelerde fiziksel bir bozulma meydana getirir. Bu, malzemelerin paslanması, çürümesi ve çatlaması ve SCP-106'yı kaplayan malzemeye benzer siyah, mukus benzeri bir maddenin oluşması şeklinde gözlemlenir.",
+			"SCP-106 katı maddelerin içinden geçebilir ve avını kendi kişisel \"cep boyutu\" olduğu varsayılan şeyin içine çekerek yakalayıp öldürecektir."
+		]
+	},
+	{
+		"title": "SCP-173",
+		"image": "173.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-173, Krylon marka sprey boya izleri taşıyan beton ve inşaat demirinden yapılmıştır. Canlı ve son derece düşmancadır.",
+			"Nesne doğrudan görüş hattı içindeyken hareket edemez. SCP-173 ile görüş hattı hiçbir zaman kesilmemelidir. Konteynere girmekle görevlendirilen personele göz kırpmadan önce birbirlerini uyarma talimatı verilmiştir."
+		]
+	},
+	{
+		"title": "SCP-205",
+		"image": "205.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-205 fotoğrafçılıkta kullanılan bir çift taşkın lambadır. Her bir lambanın yaydığı ışık SCP-205'e özgü bir şekilde davranır ve beyaz renkli olmayan herhangi bir yüzeyden tamamen geçer.",
+			"Işık herhangi bir madde boyunca kesintisiz olarak devam ederse, aksi takdirde gölge oluşturmazsa, her bir lamba kimliği belirsiz genç bir kadının gölgesini 52 numaralı odadaki projeksiyon perdesi gibi düz beyaz bir yüzey üzerinde gösterecektir."
+		]
+	},
+	{
+		"title": "SCP-268",
+		"image": "268.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-268 tüvit yün bir gazeteci çocuğu şapkasıdır. Tasarımı ve yapımı İrlanda kökenli gibi görünmektedir. Elyaf analizi kesin olmamakla birlikte, stil ve kumaş nedeniyle 1800'lerin sonu ile 1900'lerin başında üretildiği tahmin edilmektedir.",
+			"SCP-268 takılana kadar normal bir şapka gibi görünüyor. Ancak şapkayı takan herkes aniden ve anında fark edilemez hale gelir. Özneler tüm gözlemciler tarafından hatırlanamaz, tamamen görmezden gelinemez veya \"hafife alınır\" hale gelir.",
+			"Gözlemciler, giyen kişinin \"orada olması gereken\" biri olduğu ve bu nedenle düşünülmeyi ya da fark edilmeyi hak etmediği gibi ezici bir duyguya sahip görünüyorlar."
+		]
+	},
+	{
+		"title": "SCP-294",
+		"image": "294.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-294 numaralı ürün standart bir kahve otomatı gibi görünmektedir; göze çarpan tek fark, İngilizce QWERTY klavyeye karşılık gelen tuşlara sahip bir giriş dokunmatik yüzeyidir.",
+			"Dokunmatik yüzey kullanılarak herhangi bir sıvının adı girildiğinde, standart bir 12 onsluk kağıt içme bardağı yerleştirilir ve belirtilen sıvı dökülür.",
+			"Doksan yedi ilk test çalışması yapıldı (su, kahve, bira ve soda talepleri, sülfürik asit, silecek sıvısı ve motor yağı gibi tüketilemeyen sıvıların yanı sıra nitrojen, demir ve cam gibi genellikle sıvı halde bulunmayan maddeler de dahil olmak üzere) ve her biri başarılı oldu."
+		]
+	},
+	{
+		"title": "SCP-372",
+		"image": "372.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-372 cinsi bilinmeyen, baştan kuyruğa yaklaşık 198cm(6'5ft) uzunluğunda ve yaklaşık 45kg(99.2lbs) ağırlığında bir yaratıktır. Sekiz çift dar uzvu olan uzun, ince bir vücuda sahiptir.",
+			"SCP-372 etrafındaki herhangi bir varlığın hareketlerini tahmin etmeyi öğrenmiştir ve bu tekniği kendisini arayan bir kişinin başının arkasına ya da kör noktalarından herhangi birine saklanmak için kullanır.",
+			"Bir muhafaza ihlali durumunda, tüm personelin gözlerinin kenarındaki kısa süreli titreme hareketlerini rapor etmeleri tavsiye edilir."
+		]
+	},
+	{
+		"title": "SCP-409",
+		"image": "409.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-409 yaklaşık 1,5 m (5 ft) boyunda ve 0,6 m (2 ft) genişliğinde büyük bir kuvars kristaline benzemektedir.",
+			"SCP-409 ile temas eden herhangi bir nesne kristalleşmeye başlayacaktır.",
+			"Tamamen kristalleştikten sonra, nesne büyük bir güçle binlerce parçaya ayrılmadan önce yaklaşık yirmi dakika boyunca çatırdama ve gıcırdama sesleri çıkarmaya başlayacaktır."
+		]
+	},
+	{
+		"title": "SCP-427",
+		"image": "427.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-427 cilalı gümüş malzemeden yapılmış küçük, küresel, süslü bir şekilde oyulmuş bir madalyondur. Süslü oymalar herhangi bir işleve hizmet ediyor gibi görünmüyor.",
+			"SCP-427, SCP-500'ün bir hapını SCP-914'ün Giriş kabinine yerleştirildikten ve İnce ayar kullanıldıktan sonra oluşturuldu. Kapalıyken olağandışı bir faaliyet göstermez. SCP-427 açıldığında ve biyolojik dokuya maruz kaldığında, hücresel hasarı hızla yeniler ve bir şekilde istilacı bileşikleri veya enfeksiyonları temizleyebilir.",
+			"Ancak uzun süreli maruziyet sağlık açısından önemli bir tehlike yaratır. Madalyon hasarı iyileştirirken, vücudun doğal sistemlerini optimize eder. Cihaza toplamda bir saatten fazla maruz kalan D sınıfı personel şekilsiz bir doku kütlesine dönüşmeye başladı.",
+			"SCP-427 tarafından yaratılan \"Et Canavarları\" inanılmaz derecede saldırgandır ve gördükleri her personele ölümcül sonuçlarla saldırırlar. Bilinen silahların çoğuna karşı oldukça dirençlidirler."
+		]
+	},
+	{
+		"title": "SCP-500",
+		"image": "500.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-500, bu yazının yazıldığı sırada kırk yedi (47) kırmızı hap içeren küçük bir plastik kutudur.",
+			"Bir hap, ağızdan alındığında, kişinin koşullarının ciddiyetine ve miktarına bağlı olarak iki saat içinde tüm hastalıkları etkili bir şekilde iyileştirir.",
+			"Kapsamlı denemelere rağmen, hapların etken maddesi olduğu düşünülen maddenin daha fazla sentezlenmesine yönelik tüm girişimler başarısız olmuştur."
+		]
+	},
+	{
+		"title": "SCP-513",
+		"image": "513.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-513 dikkat çekici olmayan, paslı bir inek zili. Büyük miktardaki korozyon nedeniyle yüzeyinde herhangi bir işaret veya oyma görünmüyor.",
+			"SCP-513 tarafından üretilen herhangi bir gürültüye maruz kaldıktan yaklaşık bir saat sonra, maruz kalan kurbanlar SCP-513-1 olarak adlandırılan bir varlığın görüntülerini yakalamaya başlarlar.",
+			"Şu ana kadar yapılan tüm sorgulamalar SCP-513-1'in anormal derecede büyük ellere sahip, uzun boylu, bir deri bir kemik kalmış bir insansı olduğunu gösteriyor."
+		]
+	},
+	{
+		"title": "Heckler & Koch G36",
+		"image": "G36.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"G36, 1990'ların başında Almanya'da Heckler & Koch tarafından daha ağır olan 7.62mm G3 savaş tüfeğinin yerine tasarlanan 5.56x45mm bir saldırı tüfeğidir. Bundeswehr tarafından 1997 yılında G3'ün yerine hizmete alınmıştır.G36 gazla çalışır ve 30 mermilik çıkarılabilir kutu şarjörden veya 100 mermilik C-Mag tambur şarjörden beslenir.",
+			"Heckler & Koch G36, 1990'larda Almanya'da Heckler & Koch tarafından tasarlanmış bir saldırı tüfeğidir. Silah gazla çalışır ve 30 adet 5.56mm NATO mermisi alabilen standart bir şarjöre sahiptir. Ayrıca 100 mermilik bir 'tambur' ile de kullanılabilir. G36'nın taşıma kabzasında 3x dürbün ve genellikle kırmızı nokta nişangahı vardır. G36 birçok özel birliğin ve Portekiz, İspanya ve Almanya ordusunun ana silahıdır."
+		]
+	},
+	{
+		"title": "SCP-682",
+		"image": "682.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-682 kökeni bilinmeyen büyük, belli belirsiz sürüngen benzeri bir yaratıktır. Tüm yaşamdan nefret ediyor gibi görünmektedir ve bu nefretini muhafaza sırasında verdiği birkaç röportajda dile getirmiştir.",
+			"SCP-682'nin her zaman son derece yüksek güç, hız ve reflekslere sahip olduğu gözlemlenmiştir, ancak kesin seviyeler formuna göre değişir. SCP-682'nin rejeneratif yetenekleri ve esnekliği şaşırtıcıdır ve vücudunun %87'si tahrip olmuş veya çürümüş haldeyken hareket ettiği ve konuştuğu görülmüştür.",
+			"SCP-682 mümkün olan en kısa sürede yok edilmelidir."
+		]
+	},
+	{
+		"title": "SCP-714",
+		"image": "714.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Görünüşte yeşil yeşim taşından bir yüzükten başka bir şey olmayan SCP-714'ün, ona dokunan herkesin parmağına mükemmel bir şekilde uyacak şekilde genişleyip daralabildiği gösterilmiştir, ancak bu özelliklerinden en önemsiz olanıdır.",
+			"SCP-714 takmanın yorgunluk, dinlenme/uyuma zorunluluğu, daha yavaş tepkiler ve zihinsel kapasitede azalma gibi birkaç önemli etkisi vardır.",
+			"SCP-714 kullanıcıları çeşitli kimyasallara karşı artan tolerans ve hafıza ve zihinsel etkilere karşı anormal derecede yüksek direnç gösterirler."
+		]
+	},
+	{
+		"title": "SCP-860",
+		"image": "860_1.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-860 dikkat çekici olmayan koyu mavi bir anahtar.",
+			"Görünüşte rastgele zaman aralıklarında, anahtarın kanadında bir dizi sayı belirecek. Bunların daha sonra UTM koordinatları olduğu anlaşıldı.",
+			"SCP-860, verilen koordinatlar bölgesinde bulunan bir anahtar gerektiren herhangi bir geleneksel kapı kilidine takılabilir ve kilidi açabilir.",
+			"SCP-860 bir kapının kilidini açmak ve kapıyı açmak için kullanıldığında, kapı her zamanki hedefine gitmez; bunun yerine, SCP-860-1 olarak adlandırılan küçük bir orman açıklığına açılır."
+		]
+	},
+	{
+		"title": "SCP-895",
+		"image": "895.png",
+		"align_x": "center",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-895, [VERİ SANSÜRLENDİ] Morgu'ndan çıkarılan süslü bir meşe tabuttur.",
+			"SCP-895, 50 metre içindeki video ve fotoğraf gözetim ekipmanlarında, kameranın SCP-895'e yakınlığına karşılık gelen değişken süre ve düzenlilikte canlı, rahatsız edici halüsinasyonlara benzer bozulmalara neden olur.",
+			"SCP-895'e 5 metre mesafede, çekilen görüntüler çoğu denekte ciddi psikolojik travma ve histeriye neden olabilir."
+		]
+	},
+	{
+		"title": "SCP-914",
+		"image": "914.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-914, birkaç ton ağırlığında ve on sekiz metrekarelik bir alanı kaplayan, vidalı tahrikler, kayışlar, kasnaklar, dişliler, yaylar ve diğer saat mekanizmalarından oluşan büyük bir saat mekanizmasıdır.",
+			"Bir nesne Giriş Kabinine yerleştirildiğinde ve anahtar sarıldığında, SCP-914 nesneyi \"rafine\". İşlem sırasında hiçbir enerji kaybı olmaz ve nesne SCP-914'ün ön panelinde belirtilen ayara göre rafine edilir.",
+			"SCP-914'e hiçbir zaman organik madde girilmemelidir."
+		]
+	},
+	{
+		"title": "SCP-939",
+		"image": "939.png",
+		"align_x": "left",
+		"align_y": "top",
+		"background": false,
+		"descriptions": [
+			"SCP-939, troglobitik organizmalara benzer şekilde çeşitli sistemlerde körelme gösteren endotermik, sürü tabanlı yırtıcılardır. SCP-939 dik dururken ortalama 2,2 metre boyunda ve ortalama 250 kg ağırlığındadır, ancak ağırlık oldukça değişkendir.",
+			"SCP-939'un avını cezbetmek için kullandığı başlıca yöntem, önceki kurbanlarının seslerindeki insan konuşmasını taklit etmektir, ancak diğer türlerin taklidi ve aktif gece avları belgelenmiştir.",
+			"Av genellikle kafatasına ya da boynuna tek bir ısırıkla öldürülür; ısırma kuvvetleri 35 MPa'nın üzerinde ölçülmüştür."
+		]
+	},
+	{
+		"title": "SCP-966",
+		"image": "966.png",
+		"align_x": "left",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-966 yalnızca 700 nm ile yaklaşık 900 nm arasında değişen dalga boylarında görülebilir. Bu, mevcut durumlarına bakılmaksızın SCP-966'nın tüm dokuları için geçerlidir.",
+			"Avlanma yöntemleri, etkilenen canlının NREM ve REM uyku aşamalarından herhangi birine girme yeteneğini kalıcı olarak engelleyen, daha önce bilinmeyen bir dalga türünün tek bir patlamasını yaymaktan ibarettir. Mikro uyku yeteneği de kaybolur.",
+			"SCP-966, kurbanlarını uykudan mahrum bıraktıktan sonra, dinlenme eksikliği onu etkisiz hale getirene kadar avlarını takip edecektir. Bu noktada, SCP-966 onu tüketmeye devam edecektir."
+		]
+	},
+	{
+		"title": "SCP-970",
+		"image": "970.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-970, bir dizi odanın kendi içinde döngüye girdiği uzamsal bir fenomendir. Bulunan tüm vakalarda bu, duvarlarda beliren ve hepsi düz bir çizgi halinde olan bir dizi kapı vasıtasıyla gerçekleşir, öyle ki ileriye doğru yürümek ve başlangıç konumuna ulaşmak mümkündür.",
+			"Odalarda yapılan değişiklikler komşu odaları ve katları etkilememektedir. Bu fenomenin ortaya çıkışının henüz bilinen bir açıklaması yoktur.",
+			"SCP-970 fenomeninin ilk keşfinden bu yana, [VERİ SANSÜRLENDİ] fenomenin bu türden başka örnekleri de keşfedildi ve bunların % [VERİ SANSÜRLENDİ]'si Sektör 19'un 800 kilometrelik yarıçapı içinde yer alıyor."
+		]
+	},
+	{
+		"title": "SCP-1025",
+		"image": "1025.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"SCP-1025 yaklaşık 1 500 sayfa uzunluğunda ciltli bir kitaptır. Ön kapakta ve sırtta \"Yaygın Hastalıklar Ansiklopedisi\" başlığı yer almaktadır.",
+			"Bu başlık ve yayıncıya sahip başka bir kitap nüshası bulunamamıştır ve yayıncıya dair herhangi bir kayıt da mevcut değildir.",
+			"Kitabı okuyanlar, hakkında okudukları herhangi bir hastalığın semptomlarını sergiliyor gibi görünüyor. Etkinin ortaya çıkması [VERİ SANSÜRLENDİ] ile [VERİ SANSÜRLENDİ] saatleri arasında sürebiliyor."
+		]
+	},
+	{
+		"title": "SCP-1048",
+		"image": "1048.png",
+		"align_x": "center",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-1048 yaklaşık 33 cm boyunda küçük bir oyuncak ayıdır. Testler sonucunda, öznenin bileşiminde, onu uzaylı olmayan bir oyuncak ayıdan ayırt edilebilir kılan olağandışı nitelikler ortaya çıkmamıştır.",
+			"Özne kendi isteğiyle hareket edebilir ve küçük bir dizi jestle iletişim kurabilir. Özne düzenli olarak bireylere çoğu insan tarafından sevimli bulunan şekillerde sevgi gösterir.",
+			"Sevgi genellikle alt bacağa sarılma şeklinde verilir, ancak denek aynı zamanda dans ederken, yerinde zıplarken ve hatta iki ayrı olayda personel için çocuksu resimler çizerken de gözlemlenmiştir.",
+			"SCP-1048, etrafındakileri sahte bir güvenlik hissine kaptırmak için sevimli niteliklerini kullanarak bu yaratıkları üretmek için malzeme toplamasına izin veriyor. Bu yaratıkların doğası, SCP-1048'in genel davranışıyla tam bir tezat oluşturmaktadır, çünkü hepsi insanlara karşı aşırı şiddet sergilemiştir."
+	    ]
+	},
+	{
+		"title": "Yüksek Yoğunluklu Deşarj Tareti",
+		"image": "HID.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"H.I.D. tareti Vakfın en ileri teknolojisinin bir parçasıdır.",
+			"Bu silah, SCP-106'nın sınırı aşması ve ulaşması durumunda onu etkili bir şekilde durdurmak için üretildi. Taretin ateşlendikten sonra yeniden şarj olması biraz zaman alıyor, ancak SCP-106'nın hızı bu eksikliği telafi ediyor."
+		]
+	},
+	{
+		"title": "SCP-1048-A",
+		"image": "1048_A.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-1048'in kaba bir kopyası. Tamamen insan kulaklarından oluşuyor. İnce bir ciyaklama yaparak, 10 metrelik bir yarıçap içindeki herhangi bir kişinin vücudu (iç organlar dahil) kulaklara benzer çıkıntılarla kaplanır."
+		]
+	},
+	{
+		"title": "SCP-1123",
+		"image": "1123.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-1123 alt çene kemiği ve tüm dişleri eksik bir insan kafatasıdır. Dış squama frontalis'in karşısında insan kanıyla yazılmış ve \"Hatırla\" olarak tercüme edilen modern Khmer yazılımı bulunmaktadır.",
+			"Genetik testler hem kafatasının hem de kanın aynı kişiye ait olduğunu doğruluyor. Khmer yazısı çok soluk ve 5 metre mesafenin ötesinde çoğu kişi tarafından görülemiyor.",
+			"Nesneye 1 metre veya daha yakın mesafede bulunan denekler kanın taze olduğunu, sanki \"hala ıslak\" olduğunu ve kokular, sesler ve dokunsal tepkiler de dahil olmak üzere diğer anormal duyusal fenomenleri rapor edeceklerdir."
+		]
+	},
+	{
+		"title": "SCP-1162-ARC",
+		"image": "1162_ARC.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"SCP-1162-ARC şu anda [VERİ SANSÜRLENDİ] sahasındaki Muhafaza Odası 4'ün cüruf duvarında bir deliktir.",
+			"SCP-1162-ARC, bilinçli bir varlık deliklere uzandığında aktive olur, bu noktada parmakları SCP-1162-ARC'nin mevcut konumuna benzer bir katı yüzeye dokunur ve delikten sığacak kadar küçük bir eşya keşfeder.",
+			"Bu eşyalar evrensel olarak kullanıcının kaybettiği ya da hayatının bir döneminde aradığı bir şey olarak kabul edilmiştir."
+		]
+	},
+	{
+		"title": "SCP-1499",
+		"image": "1499.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP-1499 bir Sovyet GP-5 gaz maskesi. Nesne üzerinde yapılan bir mühür testi, nesnenin orijinal işlevselliğini koruduğunu göstermektedir.",
+			"SCP-1499'un anormal etkileri, bir insan SCP-1499'u kafasına yerleştirdiğinde etkinleşir. SCP-1499 deneğin kafasına tamamen sabitlendikten yaklaşık bir saniye sonra, denek gözden kaybolur ve artık tespit edilemez.",
+			"SCP-1499'u taktıktan sonra, denekler SCP-1499'u takmadan önce bulundukları ortamdan tamamen farklı bir ortamda bulunduklarını bildirdiler."
+		]
+	},
+	{
+		"title": "Anahtar Kart",
+		"image": "key_card.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": false,
+		"descriptions": [
+			"SCP Vakfı'nın her personeline bir güvenlik izni seviyesi atanmıştır ve eşdeğer seviyede bir anahtar kartına sahiptir.",
+			"Bu anahtar kartlar Vakıf sitelerindeki kısıtlı alanlara erişim için kullanılmaktadır.",
+			"Doğasında bulunan güvenlik riski nedeniyle, bir kişinin anahtar kartını kaybetmesi ciddi bir suç olarak değerlendirilir ve fesih için gerekçe olabilir."
+		]
+	},
+	{
+		"title": "Kilitleme Cihazları",
+		"image": "devices.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": null
+	},
+	{
+		"title": "Mobil Görev Güçleri",
+		"image": "MTF.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": true,
+		"descriptions": [
+			"MTF'ler belirli rollerde uzmanlaşan ya da belirli durumlara müdahale eden küçük ekiplerdir (genellikle on ila yirmi personelden oluşur, ancak 50'den fazla personelden oluşan gruplara da rastlanmaktadır).",
+			"Mobil Görev Gücü E-11 (\"Dokuz Kuyruklu Tilki\"), Site-[VERİ SANSÜRLENDİ]'de tutulan SCP öğelerinin korunması ve yeniden muhafazası konusunda uzmanlaşmış yoğun eğitimli bir Görev Gücüdür.",
+			"Görevleri arasında tüm aktif, düşman SCP örneklerini yeniden kontrol altına alarak kontrol ihlallerini ele almak, hayatta kalan Vakıf personelini kurtarmak ve herhangi bir haydut D Sınıfı personelini sonlandırmak yer alıyor."
+		]
+	},
+	{
+		"title": "Gece Görüş Cihazı",
+		"image": "NVG.png",
+		"align_x": "center",
+		"align_y": "center",
+		"background": false,
+		"descriptions": [
+			"Standart olarak verilen gece görüş gözlükleri, elektrik kesintisi durumunda MTF'lere verilir.",
+			"Bilim adamlarına da bunlar sağlanıyor, ancak elektrik kesintisinde tahliyeye odaklanmaları tavsiye ediliyor."
+		]
+	},
+	{
+		"title": "Radyo Alıcı-Vericisi",
+		"image": "radio.png",
+		"align_x": "right",
+		"align_y": "bottom",
+		"background": true,
+		"descriptions": [
+			"Radyo donatılabilir bir öğedir. Vakıf personeli arasında yapılan konuşmaları dinleyerek personele bilgi sağlamak için çok önemlidir.",
+			"Kullanıcı, ilgili sayı tuşuna basarak bir-beş (1-5) kanalları arasında geçiş yapabilir."
+		]
+	}
+]

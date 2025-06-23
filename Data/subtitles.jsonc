@@ -83,7 +83,7 @@
 	],
 	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas1.ogg": [
 		{
-			"text": "*Gülüş* Şimdiye kadar sahip olduğumuz en aptal denek olmalısın! Pekala, kapıları kapatın ve gaz vanalarını açın.",
+			"text": "*Gülüş* Şimdiye kadar sahip olduğumuz en aptal denek olmalısın! Pekala, kapıyı kapatın ve gaz vanalarını açın.",
 			"color": "guard",
 			"length": 7.05
 		}
